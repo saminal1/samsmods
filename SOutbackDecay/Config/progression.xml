@@ -1,6 +1,6 @@
 <!--
 Sam's Outback Decay
-v19.3.1
+v19.4.2
 by saminal
 untested, good luck
 
@@ -10,4 +10,5 @@ progression.xml
 <configs>
     <append xpath="/progression/perks/perk[@name='perkMasterChef']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='3,5']/@tags">,foodChickenCornSoup</append>
     <append xpath="/progression/perks/perk[@name='perkMasterChef']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='4,5']/@tags">,drinkJarBeerWRDA,foodChickenParm</append>
+    <append xpath="/progression/perks/perk[@name='perkMasterChef']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='5,5']/@tags">,foodLambRoast</append>
 </configs>
