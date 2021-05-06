@@ -1,0 +1,22 @@
+<!--
+Sam's Xmas Stuff
+v19.2.2
+by saminal
+untested, good luck
+
+loot.xml
+-->
+
+<configs>
+    <insertAfter xpath="lootcontainers/lootgroup[@name='groupApparelHats']/item[@name='apparelSkullCap']">
+        <item name="armorSantaHat" mods="dye" mod_chance="0"/>
+    </insertAfter>
+
+    <insertAfter xpath="lootcontainers/lootgroup[@name='groupWeaponsT1_Melee']/item[@name='meleeWpnClubT1BaseballBat']">
+        <item name="meleeWpnClubT1CandyClub" prob="0.3"/>
+    </insertAfter>
+
+    <insertAfter xpath="lootcontainers/lootgroup[@name='groupWeaponsT1_Melee']/item[@name='meleeWpnBladeT1HuntingKnife']">
+        <item name="meleeWpnBladeT1CandyKnife" prob="0.3"/>
+    </insertAfter>
+</configs>  

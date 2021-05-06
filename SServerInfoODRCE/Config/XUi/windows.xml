@@ -1,0 +1,59 @@
+<!--
+Sam's ServerInfo ODRCE
+v19.3.2
+by saminal
+untested, good luck
+
+windows.xml
+-->
+
+<configs>
+	<append xpath="/windows">
+		<window name="serverinfowindow" anchor="CenterTop" pos="-450,-166" width="900" height="800" cursor_area="true">
+			<panel name="header" pos="0,46" height="46" depth="1" disableautobackground="true" >
+				<sprite depth="1" name="backgroundMain" sprite="menu_empty3px" pos="0,0" height="43" color="[black]" type="sliced" fillcenter="true" globalopacity="true" />
+				<texture depth="6" pos="450,66" width="900" height="125" pivot="center" texture="@http://139.99.130.200:5202/static/img/ingamelogobig.png"/>
+				<label style="header.name" pos="6,-6" text="Server Information" />
+			</panel>
+			<panel name="content" pos="0,0" height="450" depth="1" pivot="center" disableautobackground="true" >
+				<sprite depth="6" name="border" sprite="menu_empty3px" pos="0,0" height="750" color="[black]" type="sliced" fillcenter="false" globalopacity="true" globalopacitymod="0.9" />
+				<sprite depth="1" name="backgroundMain" sprite="menu_empty3px" pos="2,-2" height="746" width="896" color="[black]" type="sliced" fillcenter="true" globalopacity="false" globalopacitymod="0.9" />
+				<label pos="10,-10" depth="2" text="Rules on this server:" />
+				<grid pos="20,-45" depth="2" rows="0" cell_width="890" cell_height="29" repeat_content="false" arrangement="vertical">
+					<label text="1. Don't be a dickhead"/>
+					<label text="2. Don't take over POIs" />
+					<label text="3. If it ain't yours, don't take it" />
+					<label text="4. Be sociable" />
+					<label text="" />
+					<label text="All Aussie mode available - reset your skills and inventory on death." />
+					<label text="" />
+					<label text="For more details join our Discord at https://discord.gg/F4w3fRh" />
+					<label text="or use the QR code above" />
+					<label text="" />
+					<label text="Mod Information" />
+					<label text="- Added steel traps and bars, extra lamps and doors" />
+					<label text="- Added steel electric fence for higher durability" />
+					<label text="- Added extended variant blocks for more shapes" />
+					<label text="- Tweaked AutoShotgun, Ratchet and Impact Driver" />
+					<label text="- Glass is transparent and can be used over seeds and solar" />
+					<label text="- Added working faucets and ovens" />
+					<label text="- Outback Decay &quot;Aussification&quot; and customised POIs" />
+				</grid>
+				<grid pos="20,-598" depth="2" rows="0" cell_width="440" cell_height="28" repeat_content="false" arrangement="vertical">
+					<label text="- Riles HUDPlus" />
+					<label text="- Khaine's Lockable Slots" />
+					<label text="- Boids Loot Lottery" />
+					<label text="- Donovan-CraftSpikes" />
+					<label text="- Donovan-LongerLootBags" />
+				</grid>
+				<grid pos="470,-598" depth="2" rows="0" cell_width="440" cell_height="28" repeat_content="false" arrangement="vertical">
+					<label text="- PhD Bigger Forge Input" />
+					<label text="- JaxTeller718_CarRespawner" />
+					<label text="- JaxTeller718_0IncreasedBiomeZombiesx4" />
+					<label text="- JaxTeller718_BiggerWanderingHordes" />
+					</grid>
+					<texture depth="6" pos="792,-128" width="200" height="257" pivot="center" texture="@http://139.99.130.200:5202/static/img/discordlogo.png"/>
+			</panel>
+		</window>
+	</append>
+</configs>

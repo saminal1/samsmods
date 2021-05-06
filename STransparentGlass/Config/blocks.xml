@@ -1,0 +1,15 @@
+<!--
+Sam's Transparent Glass
+v0.1
+by saminal
+untested, good luck
+
+blocks.xml
+-->
+
+<configs>
+<set xpath="/blocks/block[@name='glassBulletproofMaster']/property[@name='LightOpacity']/@value">0</set>
+<set xpath="/blocks/block[@name='glassBusinessBlock']/property[@name='LightOpacity']/@value">0</set>
+<set xpath="/blocks/block[@name='glassBusinessSheet']/property[@name='LightOpacity']/@value">0</set>
+<set xpath="/blocks/block[@name='opaqueBusinessGlass']/property[@name='LightOpacity']/@value">0</set>
+</configs>

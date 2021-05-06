@@ -1,0 +1,39 @@
+<!--
+Sam's Secure Chest Test
+v19.3.1
+by saminal
+untested, good luck
+
+blocks.xml
+-->
+
+
+<configs>
+    <append xpath="/blocks">
+        <block name="cntSecureStorageChestHero">
+            <property name="CreativeMode" value="Player"/>
+            <property name="Tags" value="door"/>
+            <property name="Class" value="SecureLoot"/>
+            <property name="CustomIcon" value="cntLootChestHero"/>
+            <property name="Material" value="Mmetal_weak"/>
+            <property name="MaxDamage" value="7000"/>
+            <property name="StabilitySupport" value="false"/> <!-- build restriction -->
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#Entities/LootContainers?loot_cratePrefab.prefab"/>
+            <property name="ImposterExchange" value="imposterQuarter" param1="154"/>
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <property name="LootList" value="3"/>
+                <property class="RepairItems">
+                <property name="resourceForgedIron" value="6"/>
+            </property>
+            <drop event="Destroy" count="0"/>
+            <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+            <property name="DowngradeBlock" value="cntLootChestHeroInsecure"/>
+            <property name="Group" value="Basics,Building,advBuilding"/>
+            <property name="DescriptionKey" value="cntSecureStorageChestDesc"/>
+            <property name="EconomicValue" value="150"/>
+            <property name="EconomicBundleSize" value="10"/>
+            <property name="FilterTags" value="floot,ffurniture"/>
+        </block>
+    </append>
+</configs>

@@ -1,0 +1,5 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+thrownGrenadeSnowBall,items,Gun,,,SnowballNade (Ammo)
+thrownGrenadeSnowBallDesc,items,Gun,,,"This snowball packs a proper punch. You'll still need to get a direct hit, but it ought to do the job."
+thrownGrenadeSnowBallDirty,items,Gun,,,SnowballMite (Ammo)
+thrownGrenadeSnowBallDirtyDesc,items,Gun,,,This dirty snowball will leave a hole. Make sure you don't throw it at anything you like.

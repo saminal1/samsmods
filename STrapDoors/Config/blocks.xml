@@ -1,0 +1,17 @@
+<!--
+Sam's Trap Doors
+v0.1
+by saminal
+untested, good luck
+
+blocks.xml
+-->
+
+<configs>
+	<set xpath="/blocks/block[@name='garageDoorMetal_v1']/property[@name='OnlySimpleRotations']/@value">false</set>
+	<set xpath="/blocks/block[@name='garageDoorMetal_v2']/property[@name='OnlySimpleRotations']/@value">false</set>
+	<set xpath="/blocks/block[@name='garageDoorMetal_v1Powered']/property[@name='OnlySimpleRotations']/@value">false</set>
+	<set xpath="/blocks/block[@name='garageDoorHousePlayer']/property[@name='OnlySimpleRotations']/@value">false</set>
+	<set xpath="/blocks/block[@name='garageDoorIndustrial']/property[@name='OnlySimpleRotations']/@value">false</set>
+	<set xpath="/blocks/block[@name='garageDoorIndustrial_Powered']/property[@name='OnlySimpleRotations']/@value">false</set>
+</configs>

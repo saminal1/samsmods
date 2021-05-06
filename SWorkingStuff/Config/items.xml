@@ -1,0 +1,34 @@
+<!--
+Sam's Working Stuff
+v19.3.1
+by saminal
+untested, good luck
+
+items.xml
+-->
+
+<configs>
+
+<!-- SJ: Add crafted faucets to list of blocks that will refill Jars and Buckets -->
+
+    <insertBefore xpath="/items/item[@name='drinkJarEmpty']/property[@class='Action1']/property[@name='Sound_start']">
+        <property name="Focused_blockname_8" value="faucet02Working"/>
+        <property name="Focused_blockname_9" value="faucet04Working"/>
+        <property name="Focused_blockname_10" value="faucetBrass02Working"/>
+        <property name="Focused_blockname_11" value="faucetBrass04Working"/>
+    </insertBefore>
+    <insertBefore xpath="/items/item[@name='bucketEmpty']/property[@class='Action1']/property[@name='Sound_start']">
+        <property name="Focused_blockname_8" value="faucet02Working"/>
+        <property name="Focused_blockname_9" value="faucet04Working"/>
+        <property name="Focused_blockname_10" value="faucetBrass02Working"/>
+        <property name="Focused_blockname_11" value="faucetBrass04Working"/>
+    </insertBefore>
+
+<!-- SJ: Generator bank schematic unlocks working lamps and lights, and wireless -->
+
+	<append xpath="items/item[@name='generatorbankSchematic']/effect_group[@tiered='false']">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="lightPlayerVariantHelper" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="wirelessWireRelay" operation="set" value="1"/>
+	</append>
+    
+</configs>

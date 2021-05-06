@@ -1,0 +1,18 @@
+<!--
+Sam's Outback Decay Builder Boosts
+v19.2.1
+by saminal
+untested, good luck
+
+entityclasses.xml
+-->
+
+<configs>
+
+    <!-- SJ: Increase crafting speed by 10x - subtract 90% from base craftingtime. -->
+
+    <insertAfter xpath="entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='WaterMax']">
+        <passive_effect name="CraftingTime" operation="perc_add" value="-0.9"/>
+    </insertAfter>
+    
+</configs>

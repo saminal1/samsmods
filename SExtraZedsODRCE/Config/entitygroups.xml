@@ -1,0 +1,56 @@
+<!--
+Sam's Extra Zeds - Russell Coight Edition
+v19.3.1
+by saminal
+untested, good luck
+
+entitygroups.xml
+-->
+
+<configs>
+    <remove xpath="entitygroups/entitygroup[@name='EnemyAnimalsDesert']"/>
+    <remove xpath="entitygroups/entitygroup[@name='EnemyAnimalsSnow']"/>
+    <remove xpath="entitygroups/entitygroup[@name='WildGameForest']"/>
+    <remove xpath="entitygroups/entitygroup[@name='EnemyAnimalsForest']"/>
+    <remove xpath="entitygroups/entitygroup[@name='EnemyAnimalsBurntForest']"/>
+
+    <insertAfter xpath="entitygroups/entitygroup[@name='AnimalsFarm']">
+        <entitygroup name="EnemyAnimalsDesert">
+            <entity name="invisibleAnimalEnemy" prob="4"/>
+            <entity name="animalCoyote" prob="42"/>
+            <entity name="animalZombieVulture" prob="32"/>
+            <entity name="animalSnake" prob="22"/>
+        </entitygroup>
+
+        <entitygroup name="EnemyAnimalsSnow">
+            <entity name="invisibleAnimalEnemy" prob="4"/>
+            <entity name="animalMountainLion" prob="52"/>
+            <entity name="animalDireWolf" prob="22"/>
+            <entity name="animalBear" prob="22"/>
+        </entitygroup>
+
+        <entitygroup name="WildGameForest">
+            <entity name="invisibleAnimal" prob="5"/>
+            <entity name="animalRabbit" prob="53"/>
+            <entity name="animalChicken" prob="52"/>
+            <entity name="animalBoar" prob="10"/>
+            <entity name="animalStag" prob="10"/>
+            <entity name="animalDoe" prob="10"/>
+            <entity name="animalWolf" prob="10"/>
+        </entitygroup>
+
+        <entitygroup name="EnemyAnimalsForest">
+            <entity name="invisibleAnimalEnemy" prob="8"/>
+            <entity name="animalWolf" prob="19"/>
+            <entity name="animalBear" prob="13"/>
+            <entity name="animalDireWolf" prob="13"/>
+        </entitygroup>
+
+        <entitygroup name="EnemyAnimalsBurntForest">
+            <entity name="invisibleAnimalEnemy" prob="8"/>
+            <entity name="animalZombieDog" prob="19"/>
+            <entity name="animalZombieBear" prob="13"/>
+            <entity name="animalDireWolf" prob="13"/>
+        </entitygroup>
+    </insertAfter>
+</configs>

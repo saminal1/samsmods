@@ -1,0 +1,7 @@
+﻿Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text
+buffArmWrappedDesc,buffs,Buff,,,"Your arm is wrapped, slowing your weapon handling, reload and swing speeds. This will take some time to heal.\nRanged or power attacks will delay healing or even hurt you. Further critical hits may result in a broken arm.\n\nYour max health is lowered by {cvar(.ArmHurtHealthBlockage:0.0)}.",
+buffArmWrappedName,buffs,Buff,,,Wrapped Arm,
+buffArmWrappedTooltip,buffs,Buff,,,Your arm has been wrapped and will now heal faster,
+buffLegWrappedDesc,buffs,Buff,,,Your leg is wrapped and needs time to heal.\nJumping or sprinting will delay healing or even hurt you. Further critical hits may result in a broken leg.\n\nYour max health is lowered by {cvar(.LegHurtHealthBlockage:0.0)}.,
+buffLegWrappedName,buffs,Buff,,,Wrapped Leg,
+buffLegWrappedTooltip,buffs,Buff,,,Your leg has been wrapped and will now heal faster,

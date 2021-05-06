@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Sam's Extra Blocks" />
+		<Description value="Heavily borrowing (with permission) from Riles Fixes 1.05 to allow many extra blocks to be built" />
+		<Author value="Saminal" />
+		<Version value="19.2.1" />
+		<Website value="https://discord.gg/mBJwEw4kj8" />
+	</ModInfo>
+</xml>

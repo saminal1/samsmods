@@ -1,0 +1,22 @@
+<!--
+Sam's Outback Decay Challenges
+v19.3.1
+by saminal
+untested, good luck
+
+loot.xml
+-->
+
+<configs>
+    <!-- <insertAfter xpath="lootcontainers/lootgroup[@name='groupBuriedLootStashTreasure']">
+        <lootgroup name="groupQuestShotgunMessiah">
+            <item name="bookShotgunMessiahBreachingSlugs"/>
+            <item name="bookShotgunMessiahDamage"/>
+            <item name="bookShotgunMessiahLimbShot"/>
+            <item name="bookShotgunMessiahMaintenance"/>
+            <item name="bookShotgunMessiahMagazine"/>
+            <item name="bookShotgunMessiahPartyStarter"/>
+            <item name="bookShotgunMessiahSlugs"/>
+        </lootgroup>
+    </insertAfter> -->
+</configs>

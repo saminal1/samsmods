@@ -1,0 +1,2 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+cntSecureStorageChestHero,blocks,block,,,Reinforced Storage Chest

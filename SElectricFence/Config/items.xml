@@ -1,0 +1,14 @@
+<!--
+Sam's Steel Electric Fences
+v0.1
+by saminal
+untested, good luck
+
+items.xml
+-->
+
+<configs>
+	<append xpath="items/item[@name='electricfencepostSchematic']/effect_group[@tiered='false']">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="electricfencepoststeel" operation="set" value="1"/>
+	</append>
+</configs>

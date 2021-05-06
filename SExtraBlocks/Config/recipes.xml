@@ -1,0 +1,36 @@
+<!--
+Sam's Extra Blocks
+v0.1
+by saminal
+untested, good luck
+
+recipes.xml
+-->
+
+<configs>
+	<append xpath="/recipes">
+		<recipe name="woodFrameBlockVariantHelperExtended" count="1">
+			<ingredient name="resourceWood" count="2"/>
+		</recipe>
+		<recipe name="flagstoneBlockVariantHelperExtended" count="1">
+			<ingredient name="resourceCobblestones" count="4"/>
+		</recipe>
+		<recipe name="pouredConcreteBlockVariantHelperExtended" count="1" craft_area="cementMixer" tags="cementMixerCrafting">
+			<ingredient name="resourceConcreteMix" count="10"/>
+		</recipe>
+		<recipe name="rebarFrameBlockVariantHelperExtended" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
+			<ingredient name="unit_iron" count="5"/>
+			<ingredient name="unit_clay" count="1"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_iron"/>
+			</effect_group>
+		</recipe>
+		<recipe name="scrapIronFrameBlockVariantHelperExtended" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
+			<ingredient name="unit_iron" count="15"/>
+			<ingredient name="unit_clay" count="4"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_clay,unit_iron"/>
+			</effect_group>
+		</recipe>
+	</append>
+</configs>

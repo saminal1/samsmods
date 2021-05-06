@@ -1,0 +1,16 @@
+<!--
+Sam's ServerInfo ODMAIN
+v19.2.1
+by saminal
+untested, good luck
+
+xui.xml
+-->
+
+<configs>
+	<append xpath="/xui/ruleset">
+		<window_group name="serverinfowindow">
+			<window name="serverinfowindow" />
+		</window_group>
+	</append>
+</configs>

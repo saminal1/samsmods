@@ -1,0 +1,14 @@
+<!--
+Sam's Steel Electric Fences
+v0.1
+by saminal
+untested, good luck
+
+progression.xml
+-->
+
+<configs>
+
+<append xpath="progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='3,5']/@tags">,electricfencepoststeel</append>
+
+</configs>

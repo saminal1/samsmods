@@ -1,0 +1,192 @@
+<!--
+Sam's Outback Decay Challenges
+v19.3.1
+by saminal
+untested, good luck
+
+quests.xml
+-->
+
+<configs>
+    <insertAfter xpath="/quests/quest[@id='challenge_buythefarm']">
+
+        <quest id="challenge_ODtest1">
+            <property name="name_key" value="challenge_ODtest1"/>
+            <property name="subtitle_key" value="challenge_ODtest1_subtitle"/>
+            <property name="description_key" value="challenge_ODtest1_desc"/>
+            <property name="icon" value="ui_game_symbol_shotgun"/>
+            <property name="repeatable" value="true"/>
+            <property name="category_key" value="challenge"/>
+            <property name="offer_key" value="challenge_ODtest1_desc"/>
+            <property name="difficulty" value="easy"/>
+
+            <objective type="ZombieKill" value="5" phase="1"/>
+            <requirement type="Holding" id="gunShotgunT0Blunderbuss" phase="1"/>
+
+            <reward type="Exp" value="500"/>
+            <reward type="Quest" id="challenge_ODtest2"/>
+            <reward type="Item" id="bookShotgunMessiahMaintenance" value="1"/>
+        </quest>
+
+        <quest id="challenge_ODtest2">
+            <property name="name_key" value="challenge_ODtest2"/>
+            <property name="subtitle_key" value="challenge_ODtest2_subtitle"/>
+            <property name="description_key" value="challenge_ODtest2_desc"/>
+            <property name="icon" value="ui_game_symbol_shotgun"/>
+            <property name="repeatable" value="true"/>
+            <property name="category_key" value="challenge"/>
+            <property name="offer_key" value="challenge_ODtest2_desc"/>
+            <property name="difficulty" value="easy"/>
+
+            <objective type="ZombieKill" value="10"/>
+            <requirement type="Holding" id="gunShotgunT0Blunderbuss"/>
+
+            <reward type="Exp" value="750"/>
+            <reward type="Quest" id="challenge_ODtest3"/>
+            <reward type="Item" id="gunShotgunT1DoubleBarrel" value="5"/>
+
+        </quest>
+
+        <quest id="challenge_ODtest3">
+            <property name="name_key" value="challenge_ODtest3"/>
+            <property name="subtitle_key" value="challenge_ODtest3_subtitle"/>
+            <property name="description_key" value="challenge_ODtest3_desc"/>
+            <property name="icon" value="ui_game_symbol_shotgun"/>
+            <property name="repeatable" value="true"/>
+            <property name="category_key" value="challenge"/>
+            <property name="offer_key" value="challenge_ODtest3_desc"/>
+            <property name="difficulty" value="easy"/>
+
+            <objective type="ZombieKill" value="20" phase="1"/>
+
+            <requirement type="Holding" id="gunShotgunT1DoubleBarrel" phase="1"/>
+
+            <reward type="Exp" value="1000"/>
+            <reward type="Quest" id="challenge_ODtest4"/>
+            <reward type="Item" id="bookShotgunMessiahPartyStarter" value="1"/>
+        </quest>
+
+        <quest id="challenge_ODtest4">
+            <property name="name_key" value="challenge_ODtest4"/>
+            <property name="subtitle_key" value="challenge_ODtest4_subtitle"/>
+            <property name="description_key" value="challenge_ODtest4_desc"/>
+            <property name="icon" value="ui_game_symbol_shotgun"/>
+            <property name="repeatable" value="true"/>
+            <property name="category_key" value="challenge"/>
+            <property name="offer_key" value="challenge_ODtest4_desc"/>
+            <property name="difficulty" value="easy"/>
+
+            <objective type="ZombieKill" id="animalZombieVulture" value="5" phase="1"/>
+
+            <requirement type="Holding" id="gunShotgunT1DoubleBarrel" phase="1"/>
+
+            <reward type="Exp" value="1250"/>
+            <reward type="Quest" id="challenge_ODtest5"/>
+            <reward type="Item" id="bookShotgunMessiahSlugs" value="1"/>
+        </quest>
+
+        <quest id="challenge_ODtest5">
+            <property name="name_key" value="challenge_ODtest5"/>
+            <property name="subtitle_key" value="challenge_ODtest5_subtitle"/>
+            <property name="description_key" value="challenge_ODtest5_desc"/>
+            <property name="icon" value="ui_game_symbol_shotgun"/>
+            <property name="repeatable" value="true"/>
+            <property name="category_key" value="challenge"/>
+            <property name="offer_key" value="challenge_ODtest5_desc"/>
+            <property name="difficulty" value="medium"/>
+
+            <objective type="ZombieKill" value="50" phase="1"/>
+
+            <requirement type="Group" id="requirementGroupShotgun" value="OR" phase="1">
+                <requirement type="Holding" id="gunShotgunT0Blunderbuss"/>
+                <requirement type="Holding" id="gunShotgunT1DoubleBarrel"/>
+                <requirement type="Holding" id="gunShotgunT2PumpShotgun"/>
+                <requirement type="Holding" id="gunShotgunT3AutoShotgun"/>
+            </requirement>
+
+            <reward type="Exp" value="1500"/>
+            <reward type="Quest" id="challenge_ODtest6"/>
+            <reward type="Item" id="bookShotgunMessiahLimbShot" value="1"/>
+        </quest>
+
+        <quest id="challenge_ODtest6">
+            <property name="name_key" value="challenge_ODtest6"/>
+            <property name="subtitle_key" value="challenge_ODtest6_subtitle"/>
+            <property name="description_key" value="challenge_ODtest6_desc"/>
+            <property name="icon" value="ui_game_symbol_shotgun"/>
+            <property name="repeatable" value="true"/>
+            <property name="category_key" value="challenge"/>
+            <property name="offer_key" value="challenge_ODtest6_desc"/>
+            <property name="difficulty" value="easy"/>
+
+            <objective type="ZombieKill" id="zombieFatCop" value="10" phase="1"/>
+            <objective type="ZombieKill" id="zombieFatHawaiian" value="10" phase="1"/>
+            <objective type="ZombieKill" id="zombieSpider" value="10" phase="1"/>
+            <objective type="ZombieKill" id="zombieBiker" value="10" phase="1"/>
+            <objective type="ZombieKill" id="zombieSteveCrawler" value="10" phase="1"/>
+
+            <requirement type="Group" id="requirementGroupShotgun" value="OR" phase="1">
+                <requirement type="Holding" id="gunShotgunT0Blunderbuss"/>
+                <requirement type="Holding" id="gunShotgunT1DoubleBarrel"/>
+                <requirement type="Holding" id="gunShotgunT2PumpShotgun"/>
+                <requirement type="Holding" id="gunShotgunT3AutoShotgun"/>
+            </requirement>
+
+            <reward type="Exp" value="1750"/>
+            <reward type="Quest" id="challenge_ODtest7"/>
+            <reward type="Item" id="bookShotgunMessiahDamage" value="1"/>
+        </quest>
+
+        <quest id="challenge_ODtest7">
+            <property name="name_key" value="challenge_ODtest7"/>
+            <property name="subtitle_key" value="challenge_ODtest7_subtitle"/>
+            <property name="description_key" value="challenge_ODtest7_desc"/>
+            <property name="icon" value="ui_game_symbol_shotgun"/>
+            <property name="repeatable" value="true"/>
+            <property name="category_key" value="challenge"/>
+            <property name="offer_key" value="challenge_ODtest7_desc"/>
+            <property name="difficulty" value="easy"/>
+
+            <objective type="ZombieKill" value="50" phase="1"/>
+            <objective type="ZombieKill" id="animalZombieVulture" value="5" phase="1"/>
+            <objective type="AnimalKill" id="animalBear" value="2" phase="1"/>
+            <objective type="AnimalKill" id="animalMountainLion" value="2" phase="1"/>
+            
+            <requirement type="Group" id="requirementGroupShotgun" value="OR" phase="1">
+                <requirement type="Holding" id="gunShotgunT0Blunderbuss"/>
+                <requirement type="Holding" id="gunShotgunT1DoubleBarrel"/>
+                <requirement type="Holding" id="gunShotgunT2PumpShotgun"/>
+                <requirement type="Holding" id="gunShotgunT3AutoShotgun"/>
+            </requirement>
+
+            <reward type="Exp" value="2000"/>
+            <reward type="Quest" id="challenge_ODtest8"/>
+            <reward type="Item" id="bookShotgunMessiahMagazine" value="1"/>
+        </quest>
+
+        <quest id="challenge_ODtest8">
+            <property name="name_key" value="challenge_ODtest8"/>
+            <property name="subtitle_key" value="challenge_ODtest8_subtitle"/>
+            <property name="description_key" value="challenge_ODtest8_desc"/>
+            <property name="icon" value="ui_game_symbol_shotgun"/>
+            <property name="repeatable" value="true"/>
+            <property name="category_key" value="challenge"/>
+            <property name="offer_key" value="challenge_ODtest8_desc"/>
+            <property name="difficulty" value="easy"/>
+
+            <objective type="ZombieKill" value="100" phase="1"/>
+
+            <requirement type="Group" id="requirementGroupShotgun" value="OR" phase="1">
+                <requirement type="Holding" id="gunShotgunT0Blunderbuss"/>
+                <requirement type="Holding" id="gunShotgunT1DoubleBarrel"/>
+                <requirement type="Holding" id="gunShotgunT2PumpShotgun"/>
+                <requirement type="Holding" id="gunShotgunT3AutoShotgun"/>
+            </requirement>
+
+            <reward type="Exp" value="2500"/>
+            <reward type="Item" id="bookShotgunMessiahBreachingSlugs"/>
+            <reward type="Item" id="gunShotgunT3AutoShotgun" value="6"/>
+        </quest>
+
+    </insertAfter>
+</configs>

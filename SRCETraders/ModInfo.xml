@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Sam's RCE Traders" />
+		<Description value="Allows White River Citizen quest to direct you to other biomes" />
+		<Author value="Saminal" />
+		<Version value="19.2.1" />
+		<Website value="https://discord.gg/mBJwEw4kj8" />
+	</ModInfo>
+</xml>
