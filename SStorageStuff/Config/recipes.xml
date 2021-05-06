@@ -7,3 +7,37 @@ untested, good luck
 recipes.xml
 -->
 
+<configs>
+    <append xpath="/recipes">
+        <recipe name="cntBookcasePlayer" count="1">
+            <ingredient name="resourceNail" count="15"/>
+            <ingredient name="resourceWood" count="24"/>
+        </recipe>
+
+        <recipe name="cntPillCasePlayer" count="1">
+            <ingredient name="resourceNail" count="15"/>
+            <ingredient name="resourceWood" count="24"/>
+        </recipe>
+
+        <recipe name="cntWoodDeskPlayer" count="1">
+            <ingredient name="resourceNail" count="20"/>
+            <ingredient name="resourceWood" count="30"/>
+        </recipe>
+
+        <recipe name="cntRetroFridgePlayer" count="1" craft_time="30" tags="workbenchCrafting">
+            <ingredient name="resourceForgedIron" count="25"/>
+            <ingredient name="resourceMechanicalParts" count="5"/>
+            <ingredient name="resourceElectricParts" count="5"/>
+            <ingredient name="resourceMetalPipe" count="4"/>
+            <ingredient name="resourceScrapPolymers" count="10"/>
+        </recipe>
+
+        <recipe name="cntFridgeStainlessSteelPlayer" count="1" craft_time="30" tags="workbenchCrafting">
+            <ingredient name="resourceForgedIron" count="25"/>
+            <ingredient name="resourceMechanicalParts" count="5"/>
+            <ingredient name="resourceElectricParts" count="5"/>
+            <ingredient name="resourceMetalPipe" count="4"/>
+            <ingredient name="resourceScrapPolymers" count="10"/>
+        </recipe>
+    </append>
+</configs>
