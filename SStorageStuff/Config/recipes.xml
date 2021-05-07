@@ -24,7 +24,7 @@ recipes.xml
             <ingredient name="resourceWood" count="30"/>
         </recipe>
 
-        <recipe name="cntRetroFridgePlayer" count="1" craft_time="30" tags="workbenchCrafting">
+        <recipe name="cntRetroFridgePlayer" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
             <ingredient name="resourceForgedIron" count="25"/>
             <ingredient name="resourceMechanicalParts" count="5"/>
             <ingredient name="resourceElectricParts" count="5"/>
@@ -32,7 +32,7 @@ recipes.xml
             <ingredient name="resourceScrapPolymers" count="10"/>
         </recipe>
 
-        <recipe name="cntFridgeStainlessSteelPlayer" count="1" craft_time="30" tags="workbenchCrafting">
+        <recipe name="cntFridgeStainlessSteelPlayer" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
             <ingredient name="resourceForgedIron" count="25"/>
             <ingredient name="resourceMechanicalParts" count="5"/>
             <ingredient name="resourceElectricParts" count="5"/>
@@ -40,7 +40,7 @@ recipes.xml
             <ingredient name="resourceScrapPolymers" count="10"/>
         </recipe>
 
-        <recipe name="cntSecureStorageChestHero" craft_area="workbench">
+        <recipe name="cntSecureStorageChestHero" craft_time="40" craft_area="workbench" tags="workbenchCrafting">
             <ingredient name="resourceForgedIron" count="20"/>
             <ingredient name="resourceMechanicalParts" count="8"/>
         </recipe>
