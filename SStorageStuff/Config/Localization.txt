@@ -10,3 +10,4 @@ cntPillCasePlayer,blocks,Furniture,,Pill Case (Storage)
 cntPillCasePlayerInsecure,blocks,Furniture,,Pill Case (Storage) Insecure
 cntWoodDeskPlayer,blocks,Furniture,,Wooden Desk (Storage)
 cntWoodDeskPlayerInsecure,blocks,Furniture,,Wooden Desk (Storage) Insecure
+cntSecureStorageChestHero,blocks,block,,Reinforced Storage Chest

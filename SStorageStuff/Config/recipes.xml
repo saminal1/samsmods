@@ -39,5 +39,10 @@ recipes.xml
             <ingredient name="resourceMetalPipe" count="4"/>
             <ingredient name="resourceScrapPolymers" count="10"/>
         </recipe>
+
+        <recipe name="cntSecureStorageChestHero" craft_area="workbench">
+            <ingredient name="resourceForgedIron" count="20"/>
+            <ingredient name="resourceMechanicalParts" count="8"/>
+        </recipe>
     </append>
 </configs>
