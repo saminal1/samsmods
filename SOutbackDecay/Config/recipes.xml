@@ -22,7 +22,13 @@ recipes.xml
             <ingredient name="foodCanMiso" count="1"/>
         </recipe>
 
-        <recipe name="foodShamSandwichFresh" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef">
+        <recipe name="foodShamSandwichFresh" count="1" craft_area="campfire" tags="perkMasterChef">
+            <ingredient name="foodCanSham" count="1"/>
+            <ingredient name="resourceAnimalFat" count="1"/>
+            <ingredient name="foodPumpkinBread" count="1"/>
+        </recipe>
+
+        <recipe name="foodShamSandwichFresh" count="1" craft_area="workbench" tags="perkMasterChef">
             <ingredient name="foodCanSham" count="1"/>
             <ingredient name="resourceAnimalFat" count="1"/>
             <ingredient name="foodPumpkinBread" count="1"/>
