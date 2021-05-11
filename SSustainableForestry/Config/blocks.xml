@@ -195,7 +195,7 @@ blocks.xml
         <property name="DowngradeBlock" value="treeWinterPineSapling"/>
     </append>
 
-    <append xpath="/blocks/block[(starts-with(@name, 'treeBurnt') or starts-with(@name, 'treeDeadTree') or @name='treeMountainPineDry21m') and not (contains(@name, 'Sapling') or contains(@name, 'RandomHelper'))]">
+    <append xpath="/blocks/block[(starts-with(@name, 'treeBurnt') or starts-with(@name, 'treeDeadTree') or starts-with(@name, 'treePineBurnt') or @name='treeMountainPineDry21m') and not (contains(@name, 'Sapling') or contains(@name, 'RandomHelper'))]">
         <property name="FallOver" value="false"/>
         <property name="DowngradeBlock" value="treeBurntWastelandSapling"/>
     </append>
