@@ -1,6 +1,6 @@
 <!--
 Sam's Sam's Sustainable Forestry
-v19.4.2
+v19.4.3
 by saminal
 barely tested, good luck
 
@@ -113,7 +113,7 @@ blocks.xml
             <property name="MaxDamage" value="50"/>
             <property name="Material" value="Mplants"/>
             <property name="StabilitySupport" value="false"/>
-            <property name="Model" value="#Entities/Trees?MountainPineSeed01Prefab.prefab"/><property name="ModelOffset" value="0,0,0"/>
+            <property name="Model" value="#Entities/Trees?MountainPineSeed01Prefab.prefab"/>
             <property name="ModelOffset" value="0,-0.2,0"/>
             <property name="Collide" value="melee"/>
             <property name="FallOver" value="false"/>
@@ -139,7 +139,7 @@ blocks.xml
             <property name="MaxDamage" value="50"/>
             <property name="Material" value="Mplants"/>
             <property name="StabilitySupport" value="false"/>
-            <property name="Model" value="#Entities/Trees?MountainPineSeed01Prefab.prefab"/><property name="ModelOffset" value="0,0,0"/>
+            <property name="Model" value="#Entities/Trees?MountainPineSeed01Prefab.prefab"/>
             <property name="ModelOffset" value="0,-0.2,0"/>
             <property name="Collide" value="melee"/>
             <property name="FallOver" value="false"/>
@@ -195,7 +195,7 @@ blocks.xml
         <property name="DowngradeBlock" value="treeWinterPineSapling"/>
     </append>
 
-    <append xpath="/blocks/block[(starts-with(@name, 'treeBurnt') or starts-with(@name, 'treeDeadTree') or @name='treeMountainPineDry21m') and not (contains(@name, 'Sapling') or contains(@name, 'RandomHelper'))]">
+    <append xpath="/blocks/block[(starts-with(@name, 'treeBurnt') or starts-with(@name, 'treeDeadTree') or starts-with(@name, 'treePineBurnt') or @name='treeMountainPineDry21m') and not (contains(@name, 'Sapling') or contains(@name, 'RandomHelper'))]">
         <property name="FallOver" value="false"/>
         <property name="DowngradeBlock" value="treeBurntWastelandSapling"/>
     </append>
