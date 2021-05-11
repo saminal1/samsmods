@@ -1,6 +1,6 @@
 <!--
 Sam's Outback Decay
-v19.3.1
+v19.4.2
 by saminal
 untested, good luck
 
@@ -20,6 +20,25 @@ recipes.xml
             <ingredient name="foodCanChicken" count="1"/>
             <ingredient name="foodCropCorn" count="2"/>
             <ingredient name="foodCanMiso" count="1"/>
+        </recipe>
+
+        <recipe name="foodShamSandwichFresh" count="1" craft_area="campfire" tags="perkMasterChef">
+            <ingredient name="foodCanSham" count="1"/>
+            <ingredient name="resourceAnimalFat" count="1"/>
+            <ingredient name="foodPumpkinBread" count="1"/>
+        </recipe>
+
+        <recipe name="foodShamSandwichFresh" count="1" craft_area="workbench" tags="perkMasterChef">
+            <ingredient name="foodCanSham" count="1"/>
+            <ingredient name="resourceAnimalFat" count="1"/>
+            <ingredient name="foodPumpkinBread" count="1"/>
+        </recipe>
+
+        <recipe name="foodLambRoast" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+            <ingredient name="foodCanLamb" count="1"/>
+            <ingredient name="foodCropGraceCorn" count="2"/>
+            <ingredient name="foodCropPotato" count="2"/>
+            <ingredient name="resourceAnimalFat" count="1"/>
         </recipe>
 
         <recipe name="drinkJarBeerWRDA" count="1" craft_area="chemistryStation" tags="perkMasterChef,learnable,chemStationCrafting">

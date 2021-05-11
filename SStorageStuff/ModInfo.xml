@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
 	<ModInfo>
-		<Name value="Sam's Outback Decay" />
-		<Description value="Ausification of localization for Outback Decay Servers" />
+		<Name value="Sam's Storage Stuff" />
+		<Description value="Large, lockable versions of furniture" />
 		<Author value="Saminal" />
-		<Version value="19.4.2" />
+		<Version value="19.4.1" />
 		<Website value="https://discord.gg/mBJwEw4kj8" />
 	</ModInfo>
 </xml>

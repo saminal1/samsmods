@@ -1,6 +1,6 @@
 <!--
 Sam's Outback Decay
-v19.3.1
+v19.4.2
 by saminal
 untested, good luck
 
@@ -14,11 +14,17 @@ loot.xml
     <append xpath="lootcontainers/lootgroup[@name='farmingCookingRecipesT1']">
         <item name="foodChickenParmSchematic"/>
         <item name="drinkJarBeerWRDASchematic"/>
+        <item name="foodLambRoastSchematic"/>
     </append>
     <append xpath="lootcontainers/lootgroup[@name='rareFoodDrink']">
-        <item name="foodChickenParm"/>
+        <item name="foodChickenParm" prob="0.6"/>
         <item name="foodChickenCornSoup"/>
         <item name="drinkJarBeerWRDA"/>
+        <item name="foodShamSandwichFresh"/>
+        <item name="foodLambRoast" prob="0.2"/>
+    </append>
+    <append xpath="lootcontainers/lootgroup[@name='coldfood']">
+        <item name="foodShamSandwichFresh"/>
     </append>
 
     <remove xpath="lootcontainers/lootgroup[@name='groupApparelHats']/item[@name='armorSantaHat']"/>

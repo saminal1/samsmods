@@ -1,0 +1,31 @@
+<!--
+Sam's Storage Stuff
+v19.4.1
+by saminal
+untested, good luck
+
+loot.xml
+-->
+
+<configs>
+    <append xpath="/lootcontainers">
+
+        <!-- SJ: Custom loot containers with bigger size but appropriate sounds -->
+
+        <!-- Bookcase, Desk -->
+        <lootcontainer id="210" count="0" size="8,9" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer" loot_quality_template="qualBaseTemplate">
+            <item name="cobweb" count="1,2"/>
+        </lootcontainer>
+        
+        <!-- Fridge -->
+        <lootcontainer id="211" count="0" size="8,9" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualBaseTemplate">
+            <item name="cobweb" count="1,2"/>
+        </lootcontainer>
+        
+        <!-- Pillcase -->
+        <lootcontainer id="212" count="0" size="8,9" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard" loot_quality_template="qualBaseTemplate">
+            <item name="cobweb" count="1,2"/>
+        </lootcontainer>
+
+    </append>
+</configs>
