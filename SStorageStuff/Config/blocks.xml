@@ -44,7 +44,7 @@ blocks.xml
             <property name="UseGlobalUV" value="Local"/>
             <property name="LootList" value="212"/> <!-- Sounds like a cupboard -->
             <property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
-            <drop event="Destroy" count="0"/> <!-- because it will change to insecure -->
+            <drop event="Destroy" count="0"/> <!-- No Resources -->
             <property name="FilterTags" value="floot,ffurniture"/>
             <property name="Path" value="solid"/>
             <property name="Place" value="TowardsPlacerInverted"/>
