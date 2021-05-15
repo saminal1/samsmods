@@ -47,7 +47,7 @@ blocks.xml
             <drop event="Destroy" count="0"/> <!-- because it will change to insecure -->
             <property name="FilterTags" value="floot,ffurniture"/>
             <property name="Path" value="solid"/>
-            <property name="Place" value="TowardsPlacerInverted"/>+              
+            <property name="Place" value="TowardsPlacerInverted"/>              
             <property name="IsDecoration" value="true"/>
             <property name="EconomicValue" value="17"/>
             <property name="EconomicBundleSize" value="20"/>
