@@ -9,6 +9,11 @@ recipes.xml
 
 <configs>
     <append xpath="/recipes">
+        <recipe name="cntCabinetBottomPlayer" count="1">
+            <ingredient name="resourceNail" count="15"/>
+            <ingredient name="resourceWood" count="24"/>
+        </recipe>
+
         <recipe name="cntBookcasePlayer" count="1">
             <ingredient name="resourceNail" count="15"/>
             <ingredient name="resourceWood" count="24"/>
