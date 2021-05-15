@@ -1,6 +1,6 @@
 <!--
 Sam's Working Stuff
-v19.3.1
+v19.4.1
 by saminal
 untested, good luck
 
@@ -28,7 +28,7 @@ blocks.xml
 				<property name="CraftingAreaRecipes" value="campfire" />
 				<property name="Collide" value="melee,bullet,arrow,rocket"/>
 			</property>
-			<property name="UnlockedBy" value="perkMasterChef"/>
+			<property name="UnlockedBy" value="perkMasterChef,cntWallOvenWorkingSchematic"/>
 			<property name="WorkstationIcon" value="ui_game_symbol_campfire"/>
 			<property name="CraftActionName" value="lblContextActionCook"/>
 			<property name="CraftIcon" value="ui_game_symbol_spatula"/>
@@ -70,7 +70,7 @@ blocks.xml
 				<property name="CraftingAreaRecipes" value="campfire" />
 				<property name="Collide" value="melee,bullet,arrow,rocket"/>
 			</property>
-			<property name="UnlockedBy" value="perkMasterChef"/>
+			<property name="UnlockedBy" value="perkMasterChef,cntWallOvenWorkingSchematic"/>
 			<property name="WorkstationIcon" value="ui_game_symbol_campfire"/>
 			<property name="CraftActionName" value="lblContextActionCook"/>
 			<property name="CraftIcon" value="ui_game_symbol_spatula"/>
@@ -112,7 +112,7 @@ blocks.xml
 				<property name="CraftingAreaRecipes" value="campfire" />
 				<property name="Collide" value="melee,bullet,arrow,rocket"/>
 			</property>
-			<property name="UnlockedBy" value="perkMasterChef"/>
+			<property name="UnlockedBy" value="perkMasterChef,cntWallOvenWorkingSchematic"/>
 			<property name="WorkstationIcon" value="ui_game_symbol_campfire"/>
 			<property name="CraftActionName" value="lblContextActionCook"/>
 			<property name="CraftIcon" value="ui_game_symbol_spatula"/>
@@ -179,21 +179,25 @@ blocks.xml
 		<block name="faucet02Working">
 			<property name="Extends" value="faucet02"/>
 			<property name="CustomIcon" value="faucet02"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering,faucet04WorkingSchematic"/>
 		</block>
 		
 		<block name="faucetBrass02Working">
 			<property name="Extends" value="faucetBrass02"/>
 			<property name="CustomIcon" value="faucetBrass02"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering,faucet04WorkingSchematic"/>
 		</block>
 		
 		<block name="faucet04Working">
 			<property name="Extends" value="faucet04"/>
 			<property name="CustomIcon" value="faucet04"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering,faucet04WorkingSchematic"/>
 		</block>
 		
 		<block name="faucetBrass04Working">
 			<property name="Extends" value="faucetBrass04"/>
 			<property name="CustomIcon" value="faucetBrass04"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering,faucet04WorkingSchematic"/>
 		</block>
 		
 <!-- SJ: Working versions of POI lights - require power and can be turned off and on. -->

@@ -1,6 +1,6 @@
 <!--
 Sam's Working Stuff
-v19.3.1
+v19.4.1
 by saminal
 untested, good luck
 
@@ -30,5 +30,35 @@ items.xml
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="lightPlayerVariantHelper" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="wirelessWireRelay" operation="set" value="1"/>
 	</append>
-    
+
+<!-- SJ: Add schematic for working ovens and faucets to allow intelligence to be ignored -->
+
+    <insertAfter xpath="items/item[@name='plantedPumpkin1Schematic']">
+        <item name="faucet04WorkingSchematic">
+            <property name="Extends" value="schematicNoQualityRecipeMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="faucet04"/>
+            <property name="Unlocks" value="faucet04Working"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="faucet02Working" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="faucetBrass02Working" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="faucet04Working" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="faucetBrass04Working" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+
+        <item name="cntWallOvenWorkingSchematic">
+            <property name="Extends" value="schematicNoQualityRecipeMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="cntWallOven"/>
+            <property name="Unlocks" value="cntWallOven"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="cntWallOven" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="cntCharcoalGrillWorking" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="cntGasGrillWorking" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+    </insertAfter>
 </configs>
