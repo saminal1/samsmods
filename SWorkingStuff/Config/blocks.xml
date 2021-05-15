@@ -19,6 +19,7 @@ blocks.xml
 			<property name="Texture" value="346,345,341,345,262,345"/>
 			<property name="Place" value="TowardsPlacerInverted"/>
 			<property name="FilterTags" value="floot,ffurniture"/>
+			<property name="DisplayType" value="blockMulti"/>
 			<property name="HeatMapStrength" value="4"/>
 			<property name="HeatMapTime" value="4000"/>
 			<property name="HeatMapFrequency" value="1000"/>
@@ -39,6 +40,7 @@ blocks.xml
 			<property name="CraftSound" value="campfire_cook_click"/>
 			<property name="CraftCompleteSound" value="campfire_complete_item"/>
 			<property name="WorkstationJournalTip" value="heatMapTip"/>
+			<property name="Stacknumber" value="1"/>
 			<property class="RepairItems">
 				<property name="resourceScrapIron" value="10"/>
 			</property>
@@ -64,6 +66,7 @@ blocks.xml
 			<property name="HeatMapStrength" value="4"/>
 			<property name="HeatMapTime" value="5000"/>
 			<property name="HeatMapFrequency" value="1000"/>
+			<property name="Stacknumber" value="1"/>
 			<property name="ActiveRadiusEffects" value="buffCampfireAOE(2)"/>
 			<property class="Workstation">
 				<property name="Modules" value="tools,output,fuel,input"/>
@@ -106,6 +109,7 @@ blocks.xml
 			<property name="HeatMapStrength" value="4"/>
 			<property name="HeatMapTime" value="5000"/>
 			<property name="HeatMapFrequency" value="1000"/>
+			<property name="Stacknumber" value="1"/>
 			<property name="ActiveRadiusEffects" value="buffCampfireAOE(2)"/>
 			<property class="Workstation">
 				<property name="Modules" value="tools,output,fuel,input"/>
