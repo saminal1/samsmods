@@ -1,5 +1,7 @@
 # Sam's Stuff
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R6R54MYBL)
+
 ## Sam's Deco Stuff
 Download: https://downgit.github.io/#/home?url=https://github.com/saminal1/samsmods/tree/main/SDecoStuff
 
