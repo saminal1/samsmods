@@ -22,10 +22,15 @@ loot.xml
             <item name="cobweb" count="1,2"/>
         </lootcontainer>
         
-        <!-- Pillcase -->
+        <!-- Pillcase and Cupboards -->
         <lootcontainer id="212" count="0" size="8,9" sound_open="UseActions/open_cupboard" sound_close="UseActions/close_cupboard" loot_quality_template="qualBaseTemplate">
             <item name="cobweb" count="1,2"/>
         </lootcontainer>
+
+        <!-- Vent -->
+        <lootcontainer id="213" size="6,1" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler" loot_quality_template="qualBaseTemplate">
+        </lootcontainer>
+
 
     </append>
 </configs>
