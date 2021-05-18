@@ -17,9 +17,9 @@ spawning.xml
     <insertBefore xpath="spawning/entityspawner[@name='Dog_Sm_Territorial']">
         <biome name="pine_forest">
             <spawn maxcount="1" respawndelay="1.4" time="Day" entitygroup="ZombiesAll" />
-            <spawn maxcount="1" respawndelay="1.7" time="Night" entitygroup="ZombiesNight" />
-            <spawn maxcount="1" respawndelay="0.5" time="Any" entitygroup="WildGameForest" spawnDeadChance="0" />
-            <spawn maxcount="1" respawndelay="0.6" time="Night" entitygroup="EnemyAnimalsForest" spawnDeadChance="0" />
+            <spawn maxcount="2" respawndelay="1.7" time="Night" entitygroup="ZombiesNight" />
+            <spawn maxcount="1" respawndelay="1.5" time="Any" entitygroup="WildGameForest" spawnDeadChance="0" />
+            <spawn maxcount="1" respawndelay="1.6" time="Night" entitygroup="EnemyAnimalsForest" spawnDeadChance="0" />
         </biome>
         
         <biome name="burnt_forest">
@@ -45,7 +45,7 @@ spawning.xml
         <biome name="snow">
             <spawn maxcount="1" respawndelay="1.3" time="Any" entitygroup="SnowZombies" />
             <spawn maxcount="1" respawndelay="0.9" time="Night" entitygroup="ZombiesNight" />
-            <spawn maxcount="1" respawndelay="0.5" time="Any" entitygroup="WildGameForest" spawnDeadChance="0" />
+            <spawn maxcount="1" respawndelay="1.5" time="Any" entitygroup="WildGameForest" spawnDeadChance="0" />
             <spawn maxcount="1" respawndelay="1.6" time="Any" entitygroup="EnemyAnimalsSnow" spawnDeadChance="0" />
         </biome>
     </insertBefore>
