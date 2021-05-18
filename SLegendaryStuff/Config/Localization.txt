@@ -1,3 +1,5 @@
 Key,File,Type,UsedInMainMenu,NoTranslate,english
 gunMGT2TacticalARLegendary,items,Weapon,,,Legendary Tactical Assault Rifle
 gunMGT2TacticalARLegendaryDesc,items,Weapon,,,"This unique assault rifle has a laser forged barrel for improved range, accuracy and damage."
+gunShotgunT3AutoShotgunLegendary,items,Weapon,,,Legendary Auto Shotgun
+gunShotgunT3AutoShotgunLegendaryDesc,items,Weapon,,,"This unique automatic shotgun will clear a room faster than a fart in a fan factory."
