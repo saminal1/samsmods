@@ -1,0 +1,3 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+gunMGT2TacticalARLegendary,items,Weapon,,,Legendary Tactical Assault Rifle
+gunMGT2TacticalARLegendaryDesc,items,Weapon,,,"This unique assault rifle has a laser forged barrel for improved range, accuracy and damage."
