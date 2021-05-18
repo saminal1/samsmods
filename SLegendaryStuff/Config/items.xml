@@ -53,13 +53,13 @@ items.xml
                 <property name="ScopeCameraOffset" value="-.00062,0,.055"/>
             </property>
 
-            <effect_group name="gunMGT2TacticalARLegendary">
+            <effect_group name="gunMGT2TacticalARLegendary" tiered="false">
                 <passive_effect name="MaxRange" operation="base_set" value="100" tags="perkMachineGunner"/>
                 <passive_effect name="DamageFalloffRange" operation="base_set" value="70" tags="perkMachineGunner"/>
                 <passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tags="perkMachineGunner"/> <!-- random effective rng -->
-                <passive_effect name="EntityDamage" operation="base_add" value="10" tags="perkMachineGunner"/>
+                <passive_effect name="EntityDamage" operation="base_add" value="30" tags="perkMachineGunner"/>
 
-                <passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkMachineGunner"/> <!-- random EntityDmg -->
+                <passive_effect name="EntityDamage" operation="perc_add" value="-.05,.05" tags="perkMachineGunner"/> <!-- random EntityDmg -->
                 <!-- <passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMachineGunner"/> -->
                 <passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkMachineGunner"/> <!-- random BlockDmg -->
                 <!-- <passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMachineGunner"/> -->
