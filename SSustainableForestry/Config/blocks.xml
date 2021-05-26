@@ -1,6 +1,6 @@
 <!--
 Sam's Sam's Sustainable Forestry
-v19.4.3
+v19.4.4
 by saminal
 barely tested, good luck
 
@@ -86,7 +86,7 @@ blocks.xml
             <property name="DescriptionKey" value="treePlantedSeed1mDesc"/>
             <property name="CustomIcon" value="treePlantedOak1m"/>
             <property name="CreativeMode" value="Player"/>
-            <property name="MaxDamage" value="10"/>
+            <property name="MaxDamage" value="50"/>
             <property name="Material" value="Mplants"/>
             <property name="StabilitySupport" value="false"/>
             <property name="Model" value="#Entities/Trees?OakSeed01Prefab.prefab"/>
@@ -101,7 +101,7 @@ blocks.xml
             <property name="SellableToTrader" value="false"/>
             <property name="Group" value="Resources"/>
             <property name="ParticleOnDeath" value="treeGib_sapling"/>
-            <property name="SortOrder2" value="0142"/> <!-- SortTree -->
+            <property name="SortOrder2" value="0350"/> <!-- SortTree -->
             <property name="ActivationDistance" value="4"/>
         </block>
 
@@ -152,19 +152,18 @@ blocks.xml
             <property name="ParticleOnDeath" value="treeGib_sapling"/>
             <property name="SortOrder2" value="0350"/> <!-- SortTree -->
             <property name="ActivationDistance" value="4"/>
-            <property name="SortOrder2" value="0450"/> <!-- SortTree -->
         </block>
 
         <block name="treeBurntWastelandSapling">
             <property name="Extends" value="treeMasterGrowing" param1="CustomIcon,Harvest"/>
             <property name="DescriptionKey" value="treePlantedSeed1mDesc"/>
-            <property name="CustomIcon" value="treeDeadPineLeaf"/>
+            <property name="CustomIcon" value="treePlainsTree"/>
             <property name="CreativeMode" value="Player"/>
             <property name="MaxDamage" value="50"/>
             <property name="StabilitySupport" value="false"/>
-            <property name="Shape" value="BillboardPlant"/>
-            <property name="Mesh" value="grass"/>
-            <property name="Texture" value="177"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#Entities/Trees?SnakeweedPrefab.prefab"/>
+            <property name="ModelOffset" value="0,0,0"/>
             <property name="Collide" value="melee"/>
             <property name="FallOver" value="false"/>
             <property name="BigDecorationRadius" value="4"/>

@@ -11,3 +11,7 @@ cntPillCasePlayerInsecure,blocks,Furniture,,Pill Case (Storage) Insecure
 cntWoodDeskPlayer,blocks,Furniture,,Wooden Desk (Storage)
 cntWoodDeskPlayerInsecure,blocks,Furniture,,Wooden Desk (Storage) Insecure
 cntSecureStorageChestHero,blocks,block,,Reinforced Storage Chest
+cntCabinetBottomPlayer,blocks,Furniture,,Cupboard (Storage)
+cntCabinetBottomPlayerinsecure,blocks,Furniture,,Cupboard (Storage) Insecure
+heatVentPlayer,blocks,Furniture,,Top Secret Vent (Storage)
+heatVentPlayerInsecure,blocks,Furniture,,Top Secret Vent (Storage) Insecure
