@@ -1,6 +1,6 @@
 <!--
 Sam's Working Stuff
-v19.3.1
+v19.4.1
 by saminal
 untested, good luck
 
@@ -19,6 +19,7 @@ blocks.xml
 			<property name="Texture" value="346,345,341,345,262,345"/>
 			<property name="Place" value="TowardsPlacerInverted"/>
 			<property name="FilterTags" value="floot,ffurniture"/>
+			<property name="DisplayType" value="blockMulti"/>
 			<property name="HeatMapStrength" value="4"/>
 			<property name="HeatMapTime" value="4000"/>
 			<property name="HeatMapFrequency" value="1000"/>
@@ -28,7 +29,7 @@ blocks.xml
 				<property name="CraftingAreaRecipes" value="campfire" />
 				<property name="Collide" value="melee,bullet,arrow,rocket"/>
 			</property>
-			<property name="UnlockedBy" value="perkMasterChef"/>
+			<property name="UnlockedBy" value="perkMasterChef,cntWallOvenWorkingSchematic"/>
 			<property name="WorkstationIcon" value="ui_game_symbol_campfire"/>
 			<property name="CraftActionName" value="lblContextActionCook"/>
 			<property name="CraftIcon" value="ui_game_symbol_spatula"/>
@@ -39,6 +40,7 @@ blocks.xml
 			<property name="CraftSound" value="campfire_cook_click"/>
 			<property name="CraftCompleteSound" value="campfire_complete_item"/>
 			<property name="WorkstationJournalTip" value="heatMapTip"/>
+			<property name="Stacknumber" value="1"/>
 			<property class="RepairItems">
 				<property name="resourceScrapIron" value="10"/>
 			</property>
@@ -64,13 +66,14 @@ blocks.xml
 			<property name="HeatMapStrength" value="4"/>
 			<property name="HeatMapTime" value="5000"/>
 			<property name="HeatMapFrequency" value="1000"/>
+			<property name="Stacknumber" value="1"/>
 			<property name="ActiveRadiusEffects" value="buffCampfireAOE(2)"/>
 			<property class="Workstation">
 				<property name="Modules" value="tools,output,fuel,input"/>
 				<property name="CraftingAreaRecipes" value="campfire" />
 				<property name="Collide" value="melee,bullet,arrow,rocket"/>
 			</property>
-			<property name="UnlockedBy" value="perkMasterChef"/>
+			<property name="UnlockedBy" value="perkMasterChef,cntWallOvenWorkingSchematic"/>
 			<property name="WorkstationIcon" value="ui_game_symbol_campfire"/>
 			<property name="CraftActionName" value="lblContextActionCook"/>
 			<property name="CraftIcon" value="ui_game_symbol_spatula"/>
@@ -106,13 +109,14 @@ blocks.xml
 			<property name="HeatMapStrength" value="4"/>
 			<property name="HeatMapTime" value="5000"/>
 			<property name="HeatMapFrequency" value="1000"/>
+			<property name="Stacknumber" value="1"/>
 			<property name="ActiveRadiusEffects" value="buffCampfireAOE(2)"/>
 			<property class="Workstation">
 				<property name="Modules" value="tools,output,fuel,input"/>
 				<property name="CraftingAreaRecipes" value="campfire" />
 				<property name="Collide" value="melee,bullet,arrow,rocket"/>
 			</property>
-			<property name="UnlockedBy" value="perkMasterChef"/>
+			<property name="UnlockedBy" value="perkMasterChef,cntWallOvenWorkingSchematic"/>
 			<property name="WorkstationIcon" value="ui_game_symbol_campfire"/>
 			<property name="CraftActionName" value="lblContextActionCook"/>
 			<property name="CraftIcon" value="ui_game_symbol_spatula"/>
@@ -179,21 +183,25 @@ blocks.xml
 		<block name="faucet02Working">
 			<property name="Extends" value="faucet02"/>
 			<property name="CustomIcon" value="faucet02"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering,faucet04WorkingSchematic"/>
 		</block>
 		
 		<block name="faucetBrass02Working">
 			<property name="Extends" value="faucetBrass02"/>
 			<property name="CustomIcon" value="faucetBrass02"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering,faucet04WorkingSchematic"/>
 		</block>
 		
 		<block name="faucet04Working">
 			<property name="Extends" value="faucet04"/>
 			<property name="CustomIcon" value="faucet04"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering,faucet04WorkingSchematic"/>
 		</block>
 		
 		<block name="faucetBrass04Working">
 			<property name="Extends" value="faucetBrass04"/>
 			<property name="CustomIcon" value="faucetBrass04"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering,faucet04WorkingSchematic"/>
 		</block>
 		
 <!-- SJ: Working versions of POI lights - require power and can be turned off and on. -->

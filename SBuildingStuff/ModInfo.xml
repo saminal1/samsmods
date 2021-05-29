@@ -2,9 +2,9 @@
 <xml>
 	<ModInfo>
 		<Name value="Sam's Building Stuff" />
-		<Description value="Offshoot of Steel Upgrades that also includes other building blocks like doors and some electrical additions" />
+		<Description value="Offshoot of Steel Upgrades that also includes other building blocks like doors" />
 		<Author value="Saminal" />
-		<Version value="19.3.1" />
+		<Version value="19.4.1" />
 		<Website value="https://discord.gg/mBJwEw4kj8" />
 	</ModInfo>
 </xml>
