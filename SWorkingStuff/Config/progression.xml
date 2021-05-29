@@ -1,6 +1,6 @@
 <!--
 Sam's Working Stuff
-v19.3.1
+v19.4.1
 by saminal
 untested, good luck
 
@@ -11,14 +11,13 @@ progression.xml
 
 <!-- SJ: Add the Player Light Helper and Wireless Wire Relay to the Advanced Engineering perk -->
 
-<append xpath="progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='3,5']/@tags">,lightPlayerVariantHelper,wirelessWireRelay</append>
+    <append xpath="progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='3,5']/@tags">,lightPlayerVariantHelper,wirelessWireRelay</append>
 
 <!-- SJ: Add Working Wall Ovens to the MasterChef perk, and the new faucets to the Adv Engineering perk -->
 
-<append xpath="progression/perks/perk[@name='perkMasterChef']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='2,5']/@tags">,cntGasGrillWorking,cntCharcoalGrillWorking</append>
-<append xpath="progression/perks/perk[@name='perkMasterChef']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='3,5']/@tags">,cntWallOvenWorking</append>
-<append xpath="progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,5']/@tags">,faucet02,faucetBrass02,faucet04,faucetBrass04</append>
-<append xpath="progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,5']/@tags">,faucet02Working,faucetBrass02Working,faucet04Working,faucetBrass04Working</append>
-
+    <append xpath="progression/perks/perk[@name='perkMasterChef']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='2,5']/@tags">,cntGasGrillWorking,cntCharcoalGrillWorking</append>
+    <append xpath="progression/perks/perk[@name='perkMasterChef']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='3,5']/@tags">,cntWallOvenWorking</append>
+    <append xpath="progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='1,5']/@tags">,faucet02,faucetBrass02,faucet04,faucetBrass04</append>
+    <append xpath="progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='2,5']/@tags">,faucet02Working,faucetBrass02Working,faucet04Working,faucetBrass04Working</append>
 
 </configs>

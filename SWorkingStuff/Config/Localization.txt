@@ -30,3 +30,5 @@ recessedLightPlayer,blocks,Light,,,Recessed Light
 wallLight01Player,blocks,Light,,,Warehouse Outdoor Light
 fluorescentLightPlayer,blocks,Light,,,Hanging Fluorescent Light
 trackLightPlayer,blocks,Light,,,Track Light
+faucet04WorkingSchematic,items,Schematic,,,Working Faucet Schematic
+cntWallOvenWorkingSchematic,items,Schematic,,,Working Ovens and Grills Schematic
