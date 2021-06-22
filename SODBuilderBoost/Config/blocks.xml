@@ -52,14 +52,14 @@ blocks.xml
 
     <!-- SJ: Add fertile soil block to let builders place plants on terrain -->
 
-    <append xpath="/blocks/">
+    <append xpath="/blocks">
         <block name="terrDirtFertile">
-            <property name="CustomIcon" value="terrDirt"/>
+            <property name="CustomIcon" value="resourceFertilizer"/>
             <property name="DescriptionKey" value="terrDirtFertileDesc"/>
             <property name="Material" value="Mfarmland"/>
             <property name="Shape" value="Terrain"/>
             <property name="Mesh" value="terrain"/>
-            <property name="Texture" value="47"/>
+            <property name="Texture" value="2"/>
             <property name="ImposterExclude" value="true"/>
             <property name="LPHardnessScale" value="2"/>
             <property name="Map.Color" value="20,50,21"/>
