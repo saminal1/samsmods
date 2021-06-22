@@ -1,0 +1,3 @@
+Key,File,Type,UsedInMainMenu,english
+terrDirtFertile,blocks,Terrain,,Fertile Soil
+terrDirtFertileDesc,blocks,Terrain,,With this soil blend you can plant crops without requiring a farm plot block.
