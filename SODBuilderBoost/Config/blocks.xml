@@ -84,7 +84,7 @@ blocks.xml
 
     <!-- SJ: Add random helpers and saplings for trees -->
 
-    <insertBefore xpath="/blocks/block[@name='treeCactus01']">
+    <insertBefore xpath="/blocks/block[@name='treeSnowyGrassDiagonal']">
 
         <block name="treeMountainPineRandomHelper">
             <property name="Extends" value="treeOakSml01"/>
@@ -117,6 +117,17 @@ blocks.xml
             <property name="FilterTags" value="foutdoor,ftrees,fdesign"/>
         </block>
 
+        <block name="treeCactusRandomHelper">
+            <property name="Extends" value="treeOakMed01"/>
+            <property name="PlantGrowing.FertileLevel" value="0"/>
+            <property name="DescriptionKey" value="treeRandomHelperGroupDesc"/>
+            <property name="CreativeMode" value="Dev"/>
+            <property name="DisplayInfo" value="Name"/>
+            <property name="CustomIcon" value="treeCactus04"/> <property name="CustomIconTint" value="ff8080"/>
+            <property name="MultiBlockDim" value="1,1,1"/>
+            <property name="FilterTags" value="foutdoor,ftrees,fdesign"/>
+        </block>
+
         <block name="treeBurntWastelandRandomHelper">
             <property name="Extends" value="treeOakMed01"/>
             <property name="PlantGrowing.FertileLevel" value="0"/>
@@ -128,16 +139,6 @@ blocks.xml
             <property name="FilterTags" value="foutdoor,ftrees,fdesign"/>
         </block>
         
-        <block name="treeCactusRandomHelper">
-            <property name="Extends" value="treeOakMed01"/>
-            <property name="PlantGrowing.FertileLevel" value="0"/>
-            <property name="DescriptionKey" value="treeRandomHelperGroupDesc"/>
-            <property name="CreativeMode" value="Dev"/>
-            <property name="DisplayInfo" value="Name"/>
-            <property name="CustomIcon" value="treeCactus04"/> <property name="CustomIconTint" value="ff8080"/>
-            <property name="MultiBlockDim" value="1,1,1"/>
-            <property name="FilterTags" value="foutdoor,ftrees,fdesign"/>
-        </block>
 
         <block name="treeOakSapling">
             <property name="Extends" value="treeMasterGrowing" param1="CustomIcon,Harvest"/>
