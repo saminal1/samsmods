@@ -66,9 +66,9 @@ blocks.xml
             <property class="RepairItems">
                 <property name="resourceClayLump" value="14"/>
             </property>
-            <drop event="Harvest" name="resourceClayLump" count="22" tag="oreWoodHarvest"/>
-	        <drop event="Harvest" name="resourcePotassiumNitratePowder" count="4" tag="oreWoodHarvest"/>
-            <drop event="Destroy" count="0"/>
+            <drop event="Harvest" name="resourceClayLump" count="0" tag="oreWoodHarvest"/>
+	        <drop event="Harvest" name="resourcePotassiumNitratePowder" count="0" tag="oreWoodHarvest"/>
+            <drop event="Destroy" name="terrDirtFertile" count="1"/>
             <drop event="Fall" name="terrDirt" count="1" prob="0.25" stick_chance="1"/>
             <drop event="Fall" name="resourceClayLump" count="44" prob="0.187" stick_chance="0"/>
             <property name="CanMobsSpawnOn" value="true"/>
