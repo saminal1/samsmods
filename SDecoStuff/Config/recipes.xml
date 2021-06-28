@@ -30,17 +30,17 @@ recipes.xml
 			<ingredient name="resourceScrapIron" count="10"/>
 		</recipe>
 
-		<!--recipe name="concreteDecoBlockVariantHelper" count="1" craft_area="cementMixer" tags="cementMixerCrafting">
+		<recipe name="concreteDecoBlockVariantHelper" count="1" craft_area="cementMixer" tags="cementMixerCrafting">
 			<ingredient name="resourceConcreteMix" count="10"/>
-		</recipe-->
+		</recipe>
 		
-		<recipe name="birdBathPlanterDeco" count="1" craft_area="cementMixer" tags="cementMixerCrafting">
+		<!-- <recipe name="birdBathPlanterDeco" count="1" craft_area="cementMixer" tags="cementMixerCrafting">
 			<ingredient name="resourceConcreteMix" count="10"/>
 		</recipe>
 
 		<recipe name="decoConcreteBollard" count="1" craft_area="cementMixer" tags="cementMixerCrafting">
 			<ingredient name="resourceConcreteMix" count="10"/>
-		</recipe>
+		</recipe> -->
 
 		<recipe name="electricDecoBlockVariantHelper" count="1" craft_area="workbench" tags="workbenchCrafting">
 			<ingredient name="resourceForgedIron" count="5"/>
