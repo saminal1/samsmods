@@ -47,6 +47,33 @@ recipes.xml
             <ingredient name="resourceYuccaFibers" count="5"/>
         </recipe>
 
+        <recipe name="treeOakVariantHelper" count="1" craft_time="30">
+            <ingredient name="resourceClayLump" count="2"/>
+            <ingredient name="treePlantedOak1m" count="1"/>
+        </recipe>
+
+        <recipe name="treeMountainPineVariantHelper" count="1" craft_time="30">
+            <ingredient name="resourceClayLump" count="2"/>
+            <ingredient name="treePlantedMountainPine1m" count="1"/>
+        </recipe>
+
+        <recipe name="treeCactusVariantHelper" count="1" craft_time="30">
+            <ingredient name="resourceClayLump" count="2"/>
+            <ingredient name="resourceCrushedSand" count="2"/>
+            <ingredient name="resourceYuccaFibers" count="5"/>
+        </recipe>
+
+        <recipe name="treeWinterVariantHelper" count="1" craft_time="30">
+            <ingredient name="resourceClayLump" count="2"/>
+            <ingredient name="treePlantedWinterPine1m" count="1"/>
+        </recipe>
+
+        <recipe name="treeSmallVariantHelper" count="1" craft_time="30">
+            <ingredient name="resourceClayLump" count="2"/>
+            <ingredient name="resourceWood" count="2"/>
+            <ingredient name="resourceYuccaFibers" count="5"/>
+        </recipe>
+
     </append>
     
 </configs>
