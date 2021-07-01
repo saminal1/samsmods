@@ -32,3 +32,5 @@ fluorescentLightPlayer,blocks,Light,,,Hanging Fluorescent Light
 trackLightPlayer,blocks,Light,,,Track Light
 faucet04WorkingSchematic,items,Schematic,,,Working Faucet Schematic
 cntWallOvenWorkingSchematic,items,Schematic,,,Working Ovens and Grills Schematic
+decoClawFootBathTubWorking,blocks,Block,,,Working Clawfoot Bathtub
+cntBathTubEmptyWorking,blocks,Block,,,Working Bathtub

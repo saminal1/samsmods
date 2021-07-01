@@ -84,6 +84,20 @@ Add recipe to craft a working oven at the workbench
 			<ingredient name="resourceMechanicalParts" count="5"/>
 		</recipe>
 		
+		<recipe name="decoClawFootBathTubWorking" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+			<ingredient name="resourceForgedIron" count="20"/>
+			<ingredient name="resourceMetalPipe" count="2"/>
+			<ingredient name="faucetBrass02" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="4"/>
+		</recipe>
+		
+		<recipe name="cntBathTubEmptyWorking" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+			<ingredient name="resourceConcreteMix" count="10"/>
+			<ingredient name="resourceMetalPipe" count="2"/>
+			<ingredient name="faucet04" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="4"/>
+		</recipe>
+
 <!-- SJ: Add working lights and wireless relay recipes -->
 
 		<recipe name="lightPlayerVariantHelper" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
