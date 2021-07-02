@@ -17,7 +17,7 @@ blocks.xml
 			<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
 			<property name="ItemTypeIcon" value="all_blocks"/>
 			<property name="SelectAlternates" value="true"/>
-			<property name="PlaceAltBlockValue" value="wineBarrel,wineBarrelSet,wineBarrelPlain,paintingBen,paintingLorien,paintingDerek,paintingNoah,paintingDuke,paintingKen,decoClassicDogHouse,cntBookcaseEmpty,cntBookcaseFull,emberPileDeco1,emberPileDeco2,driftwood,driftwood2,signShopColdBeer,woodDestroyed05,woodDestroyed06,woodDestroyed07"/>
+			<property name="PlaceAltBlockValue" value="wineBarrel,wineBarrelSet,wineBarrelPlain,paintingBen,paintingLorien,paintingDerek,paintingNoah,paintingDuke,paintingKen,decoClassicDogHouse,cntBookcaseEmpty,cntBookcaseFull,emberPileDeco1,emberPileDeco2,driftwood,driftwood2,signShopColdBeer,modularFireWoodStackA,modularFireWoodStackB,modularFireWoodStackC,woodDestroyed05,woodDestroyed06,woodDestroyed07"/>
 			<property name="EconomicValue" value="60"/> <!-- disassemble value -->
 		</block>
 
