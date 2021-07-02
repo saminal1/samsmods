@@ -1,6 +1,6 @@
 <!--
 Sam's Outback Builder Boosts
-v19.2.1
+v19.5.1
 by saminal
 untested, good luck
 
@@ -79,6 +79,235 @@ blocks.xml
             <property name="SortOrder1" value="d0k0"/>
             <property name="SortOrder2" value="0050"/>
             <property name="DisplayType" value="blockTerrainFertile"/>
+        </block>
+    </append>
+
+    <!-- SJ: Add random helpers and saplings for trees -->
+
+    <insertBefore xpath="/blocks/block[@name='treeSnowyGrassDiagonal']">
+
+        <block name="treeMountainPineRandomHelper">
+            <property name="Extends" value="treeOakSml01"/>
+            <property name="PlantGrowing.FertileLevel" value="0"/>
+            <property name="DescriptionKey" value="treeRandomHelperGroupDesc"/>
+            <property name="CreativeMode" value="Dev"/>
+            <property name="DisplayInfo" value="Name"/>
+            <property name="CustomIcon" value="treeMountainPine12m"/> <property name="CustomIconTint" value="ff8080"/>
+            <property name="MultiBlockDim" value="1,1,1"/>
+            <property name="FilterTags" value="foutdoor,ftrees,fdesign"/>
+        </block>
+        <block name="treeOakRandomHelper">
+            <property name="Extends" value="treeOakMed01"/>
+            <property name="PlantGrowing.FertileLevel" value="0"/>
+            <property name="DescriptionKey" value="treeRandomHelperGroupDesc"/>
+            <property name="CreativeMode" value="Dev"/>
+            <property name="DisplayInfo" value="Name"/>
+            <property name="CustomIcon" value="treeOakMed01"/> <property name="CustomIconTint" value="ff8080"/>
+            <property name="MultiBlockDim" value="1,1,1"/>
+            <property name="FilterTags" value="foutdoor,ftrees,fdesign"/>
+        </block>
+        <block name="treeWinterPineRandomHelper">
+            <property name="Extends" value="treeOakMed01"/>
+            <property name="PlantGrowing.FertileLevel" value="0"/>
+            <property name="DescriptionKey" value="treeRandomHelperGroupDesc"/>
+            <property name="CreativeMode" value="Dev"/>
+            <property name="DisplayInfo" value="Name"/>
+            <property name="CustomIcon" value="treeWinterPine13m"/> <property name="CustomIconTint" value="ff8080"/>
+            <property name="MultiBlockDim" value="1,1,1"/>
+            <property name="FilterTags" value="foutdoor,ftrees,fdesign"/>
+        </block>
+
+        <block name="treeCactusRandomHelper">
+            <property name="Extends" value="treeOakMed01"/>
+            <property name="PlantGrowing.FertileLevel" value="0"/>
+            <property name="DescriptionKey" value="treeRandomHelperGroupDesc"/>
+            <property name="CreativeMode" value="Dev"/>
+            <property name="DisplayInfo" value="Name"/>
+            <property name="CustomIcon" value="treeCactus04"/> <property name="CustomIconTint" value="ff8080"/>
+            <property name="MultiBlockDim" value="1,1,1"/>
+            <property name="FilterTags" value="foutdoor,ftrees,fdesign"/>
+        </block>
+
+        <block name="treeBurntWastelandRandomHelper">
+            <property name="Extends" value="treeOakMed01"/>
+            <property name="PlantGrowing.FertileLevel" value="0"/>
+            <property name="DescriptionKey" value="treeRandomHelperGroupDesc"/>
+            <property name="CreativeMode" value="Dev"/>
+            <property name="DisplayInfo" value="Name"/>
+            <property name="CustomIcon" value="treeDeadTree01"/> <property name="CustomIconTint" value="ff8080"/>
+            <property name="MultiBlockDim" value="1,1,1"/>
+            <property name="FilterTags" value="foutdoor,ftrees,fdesign"/>
+        </block>
+        
+
+        <block name="treeOakSapling">
+            <property name="Extends" value="treeMasterGrowing" param1="CustomIcon,Harvest"/>
+            <property name="DescriptionKey" value="treePlantedSeed1mDesc"/>
+            <property name="CustomIcon" value="treePlantedOak1m"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="MaxDamage" value="50"/>
+            <property name="Material" value="Mplants"/>
+            <property name="StabilitySupport" value="false"/>
+            <property name="Model" value="#Entities/Trees?OakSeed01Prefab.prefab"/>
+            <property name="ModelOffset" value="0,-0.2,0"/>
+            <property name="Collide" value="melee"/>
+            <property name="FallOver" value="false"/>
+            <property name="BigDecorationRadius" value="4"/>
+            <property name="OnlySimpleRotations" value="true"/>
+            <property name="PlantGrowing.Next" value="treeOakRandomHelper"/>
+            <property name="EconomicValue" value="12"/>
+            <property name="EconomicBundleSize" value="5"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Group" value="Resources"/>
+            <property name="ParticleOnDeath" value="treeGib_sapling"/>
+            <property name="SortOrder2" value="0350"/> <!-- SortTree -->
+            <property name="ActivationDistance" value="4"/>
+        </block>
+
+        <block name="treeMountainPineSapling">
+            <property name="Extends" value="treeMasterGrowing" param1="CustomIcon,Harvest"/>
+            <property name="DescriptionKey" value="treePlantedSeed1mDesc"/>
+            <property name="CustomIcon" value="treePlantedMountainPine1m"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="MaxDamage" value="50"/>
+            <property name="Material" value="Mplants"/>
+            <property name="StabilitySupport" value="false"/>
+            <property name="Model" value="#Entities/Trees?MountainPineSeed01Prefab.prefab"/>
+            <property name="ModelOffset" value="0,-0.2,0"/>
+            <property name="Collide" value="melee"/>
+            <property name="FallOver" value="false"/>
+            <property name="BigDecorationRadius" value="4"/>
+            <property name="PlantGrowing.Next" value="treeMountainPineRandomHelper"/>
+            <property name="EconomicValue" value="12"/>
+            <property name="EconomicBundleSize" value="5"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Group" value="Resources"/>
+            <property name="ParticleOnDeath" value="treeGib_sapling"/>
+            <property name="SortOrder2" value="0350"/> <!-- SortTree -->
+            <property name="ActivationDistance" value="4"/>
+        </block>
+
+        <block name="treeWinterPineSapling">
+            <property name="Extends" value="treeMasterGrowing" param1="CustomIcon,Harvest"/>
+            <property name="DescriptionKey" value="treePlantedSeed1mDesc"/>
+            <property name="CustomIcon" value="treePlantedMountainPine1m"/>
+            <property name="CustomIconTint" value="b0b0ff"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIconTint" value="b0b0ff"/>
+            <property name="CustomIcon" value="treePlantedMountainPine1m"/>
+            <property name="MaxDamage" value="50"/>
+            <property name="Material" value="Mplants"/>
+            <property name="StabilitySupport" value="false"/>
+            <property name="Model" value="#Entities/Trees?MountainPineSeed01Prefab.prefab"/>
+            <property name="ModelOffset" value="0,-0.2,0"/>
+            <property name="Collide" value="melee"/>
+            <property name="FallOver" value="false"/>
+            <property name="BigDecorationRadius" value="4"/>
+            <property name="PlantGrowing.Next" value="treeWinterPineRandomHelper"/>
+            <property name="EconomicValue" value="12"/>
+            <property name="EconomicBundleSize" value="5"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Group" value="Resources"/>
+            <property name="ParticleOnDeath" value="treeGib_sapling"/>
+            <property name="SortOrder2" value="0350"/> <!-- SortTree -->
+            <property name="ActivationDistance" value="4"/>
+        </block>
+
+        <block name="treeBurntWastelandSapling">
+            <property name="Extends" value="treeMasterGrowing" param1="CustomIcon,Harvest"/>
+            <property name="DescriptionKey" value="treePlantedSeed1mDesc"/>
+            <property name="CustomIcon" value="treePlainsTree"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="MaxDamage" value="50"/>
+            <property name="StabilitySupport" value="false"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#Entities/Trees?SnakeweedPrefab.prefab"/>
+            <property name="ModelOffset" value="0,0,0"/>
+            <property name="Collide" value="melee"/>
+            <property name="FallOver" value="false"/>
+            <property name="BigDecorationRadius" value="4"/>
+            <property name="PlantGrowing.Next" value="treeBurntWastelandRandomHelper"/>
+            <property name="EconomicValue" value="12"/>
+            <property name="EconomicBundleSize" value="5"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Group" value="Resources"/>
+            <property name="SortOrder2" value="0350"/> <!-- SortTree -->
+            <property name="ActivationDistance" value="4"/>
+        </block>
+
+        <block name="treeCactusSapling">
+            <property name="Extends" value="treeMasterGrowing" param1="CustomIcon,Harvest,MultiBlockDim"/>
+            <property name="DescriptionKey" value="treePlantedSeed1mDesc"/>
+            <property name="CustomIcon" value="treeCactus04"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="MaxDamage" value="50"/>
+            <property name="Material" value="Mplants"/>
+            <property name="StabilitySupport" value="false"/>
+            <property name="Model" value="Entities/Plants/cactus04Prefab"/>
+            <property name="ModelOffset" value="0,0.45,0"/>
+            <property name="Collide" value="melee"/>
+            <property name="FallOver" value="false"/>
+            <property name="BigDecorationRadius" value="4"/>
+            <property name="PlantGrowing.Next" value="treeCactusRandomHelper"/>
+            <property name="EconomicValue" value="12"/>
+            <property name="EconomicBundleSize" value="5"/>
+            <property name="SellableToTrader" value="false"/>
+            <property name="Group" value="Resources"/>
+            <property name="ParticleOnDeath" value="treeGib_sapling"/>
+            <property name="SortOrder2" value="0350"/>
+            <property name="ActivationDistance" value="4"/>
+        </block>
+    </insertBefore>
+
+    <append xpath="/blocks">
+        <block name="treeOakVariantHelper">
+            <property name="Extends" value="woodFrameBlock"/>
+            <property name="CustomIcon" value="treeOakSml01"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+            <property name="ItemTypeIcon" value="all_blocks"/>
+            <property name="SelectAlternates" value="true"/>
+            <property name="PlaceAltBlockValue" value="treeOakSml01,treeOakMed01,treeOakMed02,treeOakLrg01"/>
+        </block>
+
+        <block name="treeMountainPineVariantHelper">
+            <property name="Extends" value="woodFrameBlock"/>
+            <property name="CustomIcon" value="treeMountainPine12m"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+            <property name="ItemTypeIcon" value="all_blocks"/>
+            <property name="SelectAlternates" value="true"/>
+            <property name="PlaceAltBlockValue" value="treeMountainPine12m,treeMountainPine19m,treeMountainPine27m,treeMountainPine31m,treeMountainPine41m,treeMountainPine48m,treeMountainPineDry21m,treeFirLrg01"/>
+        </block>
+
+        <block name="treeCactusVariantHelper">
+            <property name="Extends" value="woodFrameBlock"/>
+            <property name="CustomIcon" value="treeCactus01"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+            <property name="ItemTypeIcon" value="all_blocks"/>
+            <property name="SelectAlternates" value="true"/>
+            <property name="PlaceAltBlockValue" value="treeCactus01,treeCactus02,treeCactus03,treeCactus04,treeCactus05,treeCactus06"/>
+        </block>
+
+        <block name="treeWinterVariantHelper">
+            <property name="Extends" value="woodFrameBlock"/>
+            <property name="CustomIcon" value="treeWinterEverGreen"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+            <property name="ItemTypeIcon" value="all_blocks"/>
+            <property name="SelectAlternates" value="true"/>
+            <property name="PlaceAltBlockValue" value="treeWinterEverGreen,treeWinterPine13m,treeWinterPine19m,treeWinterPine28m"/>
+        </block>
+
+        <block name="treeSmallVariantHelper">
+            <property name="Extends" value="woodFrameBlock"/>
+            <property name="CustomIcon" value="treePlainsTree"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+            <property name="ItemTypeIcon" value="all_blocks"/>
+            <property name="SelectAlternates" value="true"/>
+            <property name="PlaceAltBlockValue" value="treePlainsTree,treePlainsTree2,treeDeadPineLeaf,treeSnowyDeadBush,treeJuniper4m,treeAzalea,treeStump"/>
         </block>
     </append>
 </configs>
