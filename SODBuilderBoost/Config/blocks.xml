@@ -309,4 +309,7 @@ blocks.xml
             <property name="PlaceAltBlockValue" value="treePlainsTree,treePlainsTree2,treeDeadPineLeaf,treeSnowyDeadBush,treeJuniper4m,treeAzalea,treeStump"/>
         </block>
     </append>
+    <append xpath="blocks/block[@name='solarbank']">
+        <property name="UnlockedBy" value="perkAdvancedEngineering,solarbankSchematic"/>
+    </append>
 </configs>

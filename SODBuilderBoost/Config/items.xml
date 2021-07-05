@@ -68,4 +68,20 @@ items.xml
         </item>
     </insertAfter>
 
+    <insertAfter xpath="items/item[@name='electrictimerrelaySchematic']">
+        <item name="solarbankSchematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="solarbank"/>
+            <property name="Unlocks" value="solarbank"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="solarbank" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="solarCell" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+    </insertAfter>
+    <append xpath="items/item[@name='solarCell']">
+        <property name="UnlockedBy" value="perkAdvancedEngineering,solarbankSchematic"/>
+    </append>
 </configs>

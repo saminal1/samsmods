@@ -74,6 +74,18 @@ recipes.xml
             <ingredient name="resourceYuccaFibers" count="5"/>
         </recipe>
 
+        <recipe name="solarbank" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
+            <ingredient name="resourceForgedSteel" count="20"/>
+            <ingredient name="resourceElectricParts" count="15"/>
+            <ingredient name="resourceScrapPolymers" count="10"/>
+        </recipe>
+
+        <recipe name="solarCell" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable,workbenchCrafting">
+            <ingredient name="resourceForgedSteel" count="5"/>
+            <ingredient name="resourceScrapPolymers" count="10"/>
+            <ingredient name="resourceElectricParts" count="10"/>
+            <ingredient name="resourceBrokenGlass" count="25"/>
+        </recipe>
     </append>
     
 </configs>

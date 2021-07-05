@@ -1,0 +1,11 @@
+<!--
+Sam's Outback Decay Builder Boosts
+v19.5.3
+by saminal
+
+progression.xml
+-->
+
+<configs>
+    <append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='4,5']/@tags">,solarbank,solarCell</append>
+</configs>
