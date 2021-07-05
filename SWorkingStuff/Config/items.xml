@@ -2,7 +2,6 @@
 Sam's Working Stuff
 v19.5.1
 by saminal
-untested, good luck
 
 items.xml
 -->
@@ -36,10 +35,9 @@ items.xml
                 <property name="Focused_blockname_6" value="faucet02Working"/>
                 <property name="Focused_blockname_7" value="faucet04Working"/>
                 <property name="Focused_blockname_8" value="faucetBrass02Working"/>
-                <property name="Focused_blockname_9" value="faucetBrass04Working"/>                <property name="Focused_blockname_8" value="faucetBrass02Working"/>
-                <property name="Focused_blockname_10" value="decoClawFootBathTubWorking"/>                <property name="Focused_blockname_8" value="faucetBrass02Working"/>
+                <property name="Focused_blockname_9" value="faucetBrass04Working"/>
+                <property name="Focused_blockname_10" value="decoClawFootBathTubWorking"/>
                 <property name="Focused_blockname_11" value="cntBathTubEmptyWorking"/>
-
                 <property name="Sound_start" value="bucketfill_water"/>
             </property>
             <property name="Group" value="Resources"/>
@@ -72,7 +70,7 @@ items.xml
                 <property name="Focused_blockname_7" value="faucet04Working"/>
                 <property name="Focused_blockname_8" value="faucetBrass02Working"/>
                 <property name="Focused_blockname_9" value="faucetBrass04Working"/>
-                <property name="Focused_blockname_10" value="decoClawFootBathTubWorking"/>                <property name="Focused_blockname_8" value="faucetBrass02Working"/>
+                <property name="Focused_blockname_10" value="decoClawFootBathTubWorking"/>
                 <property name="Focused_blockname_11" value="cntBathTubEmptyWorking"/>
                 <property name="Sound_start" value="bucketfill_water"/>
             </property>
