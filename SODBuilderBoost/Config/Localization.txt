@@ -1,0 +1,13 @@
+Key,File,Type,UsedInMainMenu,english
+terrDirtFertile,blocks,Terrain,,Fertile Soil
+terrDirtFertileDesc,blocks,Terrain,,With this soil blend you can plant crops without requiring a farm plot block.
+treeOakSapling,blocks,block,,Oak Sapling
+treeMountainPineSapling,blocks,block,,Pine Sapling
+treeWinterPineSapling,blocks,block,,Blue Spruce Sapling
+treeBurntWastelandSapling,blocks,block,,"'Dead' Sapling"
+treeCactusSapling,blocks,block,,"Cactus 'Sapling'"
+treeOakVariantHelper,blocks,block,,Oak Trees
+treeMountainPineVariantHelper,blocks,block,,Pine Trees
+treeCactusVariantHelper,blocks,block,,Cactus Trees
+treeWinterVariantHelper,blocks,block,,Winter Trees
+treeSmallVariantHelper,blocks,block,,Small Trees and Shrubs

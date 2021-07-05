@@ -1,0 +1,79 @@
+<!--
+Sam's Outback Decay Builder Boosts
+v19.5.1
+by saminal
+untested, good luck
+
+recipes.xml
+-->
+
+<configs>
+
+    <append xpath="/recipes">
+        <recipe name="terrDirtFertile" count="1" tags="perkLivingOffTheLandCrafting" craft_time="20">
+            <ingredient name="foodRottingFlesh" count="10"/>
+            <ingredient name="resourcePotassiumNitratePowder" count="25"/>
+            <ingredient name="resourceClayLump" count="100"/>
+            <effect_group>
+                <passive_effect name="CraftingIngredientCount" level="1,2,3" operation="perc_add" value="-.3,-.5,-.5" tags="foodRottingFlesh,resourcePotassiumNitratePowder,resourceClayLump"/>
+            </effect_group>
+        </recipe>
+
+        <recipe name="treeOakSapling" count="1" craft_time="5">
+            <ingredient name="resourceClayLump" count="2"/>
+            <ingredient name="treePlantedOak1m" count="1"/>
+        </recipe>
+
+        <recipe name="treeMountainPineSapling" count="1" craft_time="5">
+            <ingredient name="resourceClayLump" count="2"/>
+            <ingredient name="treePlantedMountainPine1m" count="1"/>
+        </recipe>
+
+        <recipe name="treeWinterPineSapling" count="1" craft_time="5">
+            <ingredient name="resourceClayLump" count="2"/>
+            <ingredient name="treePlantedWinterPine1m" count="1"/>
+        </recipe>
+
+        <recipe name="treeBurntWastelandSapling" count="1" craft_time="5">
+            <ingredient name="resourceClayLump" count="2"/>
+            <ingredient name="resourceCoal" count="2"/>
+            <ingredient name="resourceWood" count="1"/>
+	        <ingredient name="resourceYuccaFibers" count="2"/>
+        </recipe>
+
+        <recipe name="treeCactusSapling" count="1" craft_time="5">
+            <ingredient name="resourceClayLump" count="2"/>
+            <ingredient name="resourceCrushedSand" count="2"/>
+            <ingredient name="resourceYuccaFibers" count="5"/>
+        </recipe>
+
+        <recipe name="treeOakVariantHelper" count="1" craft_time="30">
+            <ingredient name="resourceClayLump" count="2"/>
+            <ingredient name="treePlantedOak1m" count="1"/>
+        </recipe>
+
+        <recipe name="treeMountainPineVariantHelper" count="1" craft_time="30">
+            <ingredient name="resourceClayLump" count="2"/>
+            <ingredient name="treePlantedMountainPine1m" count="1"/>
+        </recipe>
+
+        <recipe name="treeCactusVariantHelper" count="1" craft_time="30">
+            <ingredient name="resourceClayLump" count="2"/>
+            <ingredient name="resourceCrushedSand" count="2"/>
+            <ingredient name="resourceYuccaFibers" count="5"/>
+        </recipe>
+
+        <recipe name="treeWinterVariantHelper" count="1" craft_time="30">
+            <ingredient name="resourceClayLump" count="2"/>
+            <ingredient name="treePlantedWinterPine1m" count="1"/>
+        </recipe>
+
+        <recipe name="treeSmallVariantHelper" count="1" craft_time="30">
+            <ingredient name="resourceClayLump" count="2"/>
+            <ingredient name="resourceWood" count="2"/>
+            <ingredient name="resourceYuccaFibers" count="5"/>
+        </recipe>
+
+    </append>
+    
+</configs>

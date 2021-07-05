@@ -195,9 +195,9 @@ items.xml
             <property name="CreativeMode" value="Player"/>
             <property name="CustomIcon" value="thrownGrenadeContact"/>
             <property name="CustomIconTint" value="3377cc"/>
-            <property name="Unlocks" value="thrownGrenadeConcussions"/>
+            <property name="Unlocks" value="thrownGrenadeConcussion"/>
             <effect_group tiered="false">
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="thrownGrenade" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="thrownGrenadeConcussion" operation="set" value="1"/>
                 <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
             </effect_group>
         </item>
@@ -209,7 +209,7 @@ items.xml
             <property name="CustomIconTint" value="00eeee"/>
             <property name="Unlocks" value="thrownGrenadeShock"/>
             <effect_group tiered="false">
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="thrownGrenade" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="thrownGrenadeShock" operation="set" value="1"/>
                 <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
             </effect_group>
         </item>

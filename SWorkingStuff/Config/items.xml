@@ -36,6 +36,8 @@ items.xml
                 <property name="Focused_blockname_7" value="faucet04Working"/>
                 <property name="Focused_blockname_8" value="faucetBrass02Working"/>
                 <property name="Focused_blockname_9" value="faucetBrass04Working"/>
+                <property name="Focused_blockname_10" value="decoClawFootBathTubWorking"/>
+                <property name="Focused_blockname_11" value="cntBathTubEmptyWorking"/>
                 <property name="Sound_start" value="bucketfill_water"/>
             </property>
             <property name="Group" value="Resources"/>
@@ -68,6 +70,8 @@ items.xml
                 <property name="Focused_blockname_7" value="faucet04Working"/>
                 <property name="Focused_blockname_8" value="faucetBrass02Working"/>
                 <property name="Focused_blockname_9" value="faucetBrass04Working"/>
+                <property name="Focused_blockname_10" value="decoClawFootBathTubWorking"/>
+                <property name="Focused_blockname_11" value="cntBathTubEmptyWorking"/>
                 <property name="Sound_start" value="bucketfill_water"/>
             </property>
             <property name="Group" value="Tools/Traps"/>
@@ -94,7 +98,9 @@ items.xml
                 <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="faucet02Working" operation="set" value="1"/>
                 <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="faucetBrass02Working" operation="set" value="1"/>
                 <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="faucet04Working" operation="set" value="1"/>
-                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="faucetBrass04Working" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="faucetBrass04Working" operation="set" value="1"/>                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="faucet04Working" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="decoClawFootBathTubWorking" operation="set" value="1"/>                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="faucet04Working" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="cntBathTubEmptyWorking" operation="set" value="1"/>
                 <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
             </effect_group>
         </item>

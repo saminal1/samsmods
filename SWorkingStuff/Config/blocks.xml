@@ -202,6 +202,18 @@ blocks.xml
 			<property name="CustomIcon" value="faucetBrass04"/>
 			<property name="UnlockedBy" value="perkAdvancedEngineering,faucet04WorkingSchematic"/>
 		</block>
+
+		<block name="decoClawFootBathTubWorking">
+			<property name="Extends" value="decoClawFootBathTub"/>
+			<property name="CustomIcon" value="decoClawFootBathTub"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering,faucet04WorkingSchematic"/>
+		</block>
+		
+		<block name="cntBathTubEmptyWorking">
+			<property name="Extends" value="cntBathTubEmpty"/>
+			<property name="CustomIcon" value="cntBathTubEmpty"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering,faucet04WorkingSchematic"/>
+		</block>
 		
 <!-- SJ: Working versions of POI lights - require power and can be turned off and on. -->
 
