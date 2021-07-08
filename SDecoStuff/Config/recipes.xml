@@ -92,5 +92,10 @@ recipes.xml
             <ingredient name="resourceMechanicalParts" count="8"/>
         </recipe>
 
+		<recipe name="candelabraLight" craft_area="workbench">
+            <ingredient name="resourceScrapBrass" count="50"/>
+            <ingredient name="candle" count="3"/>
+        </recipe>
+
 	</append>
 </configs>

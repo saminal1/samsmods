@@ -17,7 +17,7 @@ blocks.xml
 			<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
 			<property name="ItemTypeIcon" value="all_blocks"/>
 			<property name="SelectAlternates" value="true"/>
-			<property name="PlaceAltBlockValue" value="wineBarrel,wineBarrelSet,wineBarrelPlain,paintingBen,paintingLorien,paintingDerek,paintingNoah,paintingDuke,paintingKen,decoClassicDogHouse,cntBookcaseEmpty,cntBookcaseFull,emberPileDeco1,emberPileDeco2,driftwood,driftwood2,signShopColdBeer,modularFireWoodStackA,modularFireWoodStackB,modularFireWoodStackC,woodDestroyed05,woodDestroyed06,woodDestroyed07"/>
+			<property name="PlaceAltBlockValue" value="wineBarrel,wineBarrelSet,wineBarrelPlain,paintingBen,paintingLorien,paintingDerek,paintingNoah,paintingDuke,paintingKen,decoClassicDogHouse,cntBookcaseEmpty,cntBookcaseFull,emberPileDeco1,emberPileDeco2,driftwood,driftwood2,signShopColdBeer,modularFireWoodStackA,modularFireWoodStackB,modularFireWoodStackC,woodDestroyed05,woodDestroyed06,woodDestroyed07,palletEmpty,palletEmptyStack"/>
 			<property name="EconomicValue" value="60"/> <!-- disassemble value -->
 		</block>
 
@@ -28,7 +28,7 @@ blocks.xml
 			<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
 			<property name="ItemTypeIcon" value="all_blocks"/>
 			<property name="SelectAlternates" value="true"/>
-			<property name="PlaceAltBlockValue" value="cntIceMachine,decoMetalBollard,decoCookingPot,cntTrash_can01,cntBin,cntDomedTrashCanEmpty,cntFancyGarbageCan,decoWeightBar,decoBenchPress,cntFileCabinetTallClosed,cntFileCabinetShortClosed,cntBathTubEmpty,decoClawFootBathTub,cntCashRegister,cntToolBoxClosed,cntRollingToolBoxClosed,cntUtilityCartFull,decoTableRound,signRoadPrivate,signYardSign01,cntGunRackSmallEmpty01,cntGunRackSmallEmpty03,cntGunRackSmallMagazines,cntGunRackSmallArmor,cntGunRackLargeGuns01,cntGunRackLargeGuns02,signRoadStop,signRoadWork,cntCharcoalGrillOpen,cntGasGrillOpen,rebarDestroyed,decoSwingSet,decoMetalSlide,cntShoppingCartEmpty"/>
+			<property name="PlaceAltBlockValue" value="cntIceMachine,decoMetalBollard,decoCookingPot,cntTrash_can01,cntBin,cntDomedTrashCanEmpty,cntFancyGarbageCan,decoWeightBar,decoBenchPress,cntFileCabinetTallClosed,cntFileCabinetShortClosed,cntBathTubEmpty,decoClawFootBathTub,cntCashRegister,cntToolBoxClosed,cntRollingToolBoxClosed,cntUtilityCartFull,decoTableRound,signRoadPrivate,signYardSign01,cntGunRackSmallEmpty01,cntGunRackSmallEmpty03,cntGunRackSmallMagazines,cntGunRackSmallArmor,cntGunRackLargeGuns01,cntGunRackLargeGuns02,signRoadStop,signRoadWork,cntCharcoalGrillOpen,cntGasGrillOpen,rebarDestroyed,decoSwingSet,decoMetalSlide,cntShoppingCartEmpty,decoHandTruck,decoHoistChain,decoHoistHook,jailBars,jailDoorStatic,jailDoorStaticCentered"/>
 			<property name="EconomicValue" value="60"/> <!-- disassemble value -->
 		</block>
 
@@ -50,7 +50,7 @@ blocks.xml
 			<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
 			<property name="ItemTypeIcon" value="all_blocks"/>
 			<property name="SelectAlternates" value="true"/>
-			<property name="PlaceAltBlockValue" value="decoMannequinFemale,decoMannequinMale,cntSuitcase,decoCarTireFlat,decoCarTirePile,decoCarTireStack"/>
+			<property name="PlaceAltBlockValue" value="decoMannequinFemale,decoMannequinMale,cntSuitcase,decoCarTireFlat,decoCarTirePile,decoCarTireStack,palletBrownBoxesBase,palletBrownBoxesTile,palletBrownBoxesTop,palletBrownBoxesLoose"/>
 			<property name="EconomicValue" value="60"/> <!-- disassemble value -->
 		</block>
 
@@ -61,7 +61,7 @@ blocks.xml
 			<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
 			<property name="ItemTypeIcon" value="all_blocks"/>
 			<property name="SelectAlternates" value="true"/>
-			<property name="PlaceAltBlockValue" value="birdBathPlanter,decoConcreteBollard,concreteDestroyed01,concreteDestroyed02,concreteDestroyed03,concreteDestroyed04,concreteDestroyed05,concreteDestroyed06,concreteDestroyed07"/>
+			<property name="PlaceAltBlockValue" value="birdBathPlanter,decoConcreteBollard,concreteDestroyed01,concreteDestroyed02,concreteDestroyed03,concreteDestroyed04,concreteDestroyed05,concreteDestroyed06,concreteDestroyed07,palletWhiteBagsBase,palletWhiteBagsTile,palletWhiteBagsTop,palletWhiteBagsLoose,palletBricksBase,palletBricksTile,palletBricksTop,palletBlueTarpBase,palletBlueTarpTile,graveStone01,graveStone02,graveStone03,graveStone04,graveStone05,graveStone06,graveStone07,graveStone08"/>
 			<property name="EconomicValue" value="60"/> <!-- disassemble value -->
 		</block>
 
@@ -72,7 +72,7 @@ blocks.xml
 			<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
 			<property name="ItemTypeIcon" value="all_blocks"/>
 			<property name="SelectAlternates" value="true"/>
-			<property name="PlaceAltBlockValue" value="cntMicrowaveOvenVer1Closed,cntRetroFridgeVer1Closed,cntFridgeStainlessSteel,cntWashingMachine,cntWasherClosed,cntDryerClosed,cntTrashCompactor,decoComputerDeskTopPC,decoComputerMonitorKeyboardMousePC,decoComputerMonitorKeyboardMouse,decoComputerMonitor,wallClock,cntToaster,cntCoffeeMaker,cntCoffeeMakerCommercial"/>
+			<property name="PlaceAltBlockValue" value="cntMicrowaveOvenVer1Closed,cntRetroFridgeVer1Closed,cntFridgeStainlessSteel,cntWashingMachine,cntWasherClosed,cntDryerClosed,cntTrashCompactor,decoComputerDeskTopPC,decoComputerMonitorKeyboardMousePC,decoComputerMonitorKeyboardMouse,decoComputerMonitor,wallClock,cntToaster,cntCoffeeMaker,cntCoffeeMakerCommercial,satelliteDishSmall,"/>
 			<property name="EconomicValue" value="60"/> <!-- disassemble value -->
 		</block>
 
