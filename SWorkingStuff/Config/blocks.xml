@@ -521,7 +521,7 @@ blocks.xml
 			<property name="Texture" value="293"/>
 			<property name="Model" value="Industrial/fusebox" param1="main_mesh"/> 
 			<property name="Mesh" value="models"/>
-			<property name="RequiredPower" value="5"/>
+			<property name="RequiredPower" value="2"/>
 			<property name="Group" value="Building"/>
 			<property name="OnlySimpleRotations" value="false"/>
 			<property name="FilterTags" value="fdecor,fother,felectrical"/>

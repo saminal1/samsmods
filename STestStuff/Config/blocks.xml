@@ -1,0 +1,76 @@
+<!--
+Sam's Test Stuff
+v19.5.1
+by saminal
+
+blocks.xml
+-->
+
+<configs>
+	<insertAfter xpath="blocks/block[@name='scrapHatch_v3']">
+		<block name="scrapHatch_v3_Powered">
+			<property name="Extends" value="scrapHatch_v3" param1="DowngradeBlock"/>
+			<property name="DescriptionKey" value="scrapHatch_v3_PoweredDesc"/>
+			<property name="CustomIcon" value="scrapHatch_v3"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="MaxDamage" value="7500"/>
+			<!-- <property name="UnlockedBy" value="perkAdvancedEngineering,poweredDoorsSchematic"/> -->
+		</block>
+
+		<block name="ironDoor1_v3_Powered">
+			<property name="Extends" value="ironDoor1_v3" param1="DowngradeBlock"/>
+			<property name="DescriptionKey" value="ironDoor1_v3_PoweredDesc"/>
+			<property name="CustomIcon" value="ironDoor1_v3"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="MaxDamage" value="7500"/>
+			<!-- <property name="UnlockedBy" value="perkAdvancedEngineering,poweredDoorsSchematic"/> -->
+		</block>
+	</insertAfter>
+
+	<insertAfter xpath="blocks/block[@name='streetLightClassic']">
+		<block name="streetLight01_Council">
+			<property name="Class" value="PoweredLight"/>
+			<property name="RequiredPower" value="0"/>
+			<property name="Light" value="2"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="streetLight01"/>
+			<property name="DescriptionKey" value="lightPOIGroupDesc"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Shape" value="ModelEntity"/>
+			<property name="ImposterExchange" value="streetLightImposter"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="Model" value="Entities/Lighting/street_light01Prefab"/> <!-- <property name="HandleFace" value="Bottom"/> -->
+			<property name="OnlySimpleRotations" value="true"/>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceElectricParts" count="4,8" tag="salvageHarvest"/>
+			<drop event="Harvest" name="resourceForgedSteel" count="1,2" tag="salvageHarvest"/>
+			<drop event="Destroy" name="resourceScrapIron" count="1,15"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<property name="TakeDelay" value="-1"/>
+			<property name="Group" value="Science"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+		</block>
+
+		<block name="streetLightClassic_Council">
+			<property name="Extends" value="porchLight01" param1="HandleFace"/>
+			<property name="Class" value="PoweredLight"/>
+			<property name="RequiredPower" value="0"/>
+			<property name="Light" value="2"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="streetLightClassic"/>
+			<property name="Model" value="Entities/Lighting/streetLamp_ClassicPrefab"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="1,5,1"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="ImposterExchange" value="imposterDontBlockCTRPole" param1="169"/>
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceElectricParts" count="4,6" tag="salvageHarvest"/>
+			<drop event="Destroy" name="resourceScrapIron" count="1,15"/>
+		</block>
+	</insertAfter>
+</configs>

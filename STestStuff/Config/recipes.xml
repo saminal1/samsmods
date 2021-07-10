@@ -1,0 +1,25 @@
+<!--
+Sam's Test Stuff
+v19.5.1
+by saminal
+
+recipes.xml
+-->
+
+<configs>
+	<append xpath="/recipes">
+		<recipe name="scrapHatch_v3_Powered" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="16"/>
+			<ingredient name="resourceSpring" count="4"/>
+			<ingredient name="resourceMechanicalParts" count="8"/>
+			<ingredient name="resourceElectricParts" count="16"/>
+		</recipe>
+
+		<recipe name="ironDoor1_v3_Powered" count="1" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="30"/>
+			<ingredient name="resourceSpring" count="4"/>
+			<ingredient name="resourceMechanicalParts" count="8"/>
+			<ingredient name="resourceElectricParts" count="16"/>
+		</recipe>
+	</append>
+</configs>
