@@ -87,14 +87,21 @@ recipes.xml
 			<ingredient name="resourceMechanicalParts" count="10"/>
 		</recipe>
 		
-		<recipe name="cntSecureStorageChestHeroDeco" craft_area="workbench">
+
+		<!-- SJ: Moved to Storage Stuff  -->
+		<!-- <recipe name="cntSecureStorageChestHeroDeco" craft_area="workbench">
             <ingredient name="resourceForgedIron" count="20"/>
             <ingredient name="resourceMechanicalParts" count="8"/>
-        </recipe>
+        </recipe> -->
 
-		<recipe name="candelabraLight" craft_area="workbench">
+		<recipe name="candelabraLight" count="1" craft_area="workbench">
             <ingredient name="resourceScrapBrass" count="50"/>
             <ingredient name="candle" count="3"/>
+        </recipe>
+
+		<recipe name="decoEmberPileFire" count="1">
+            <ingredient name="resourceWood" count="10"/>
+            <ingredient name="resourceCoal" count="15"/>
         </recipe>
 
 	</append>

@@ -12,3 +12,5 @@ cntPurse01Deco,blocks,Container,,,Deco Purse
 cntDuffle01Deco,blocks,Container,,,Deco Duffle Bag
 cntHardenedChestSecureDeco,blocks,Container,,,Deco Hardened Chest
 cntSecureStorageChestHeroDeco,blocks,block,,,Reinforced Storage Chest
+decoEmberPileFire,blocks,Deco,,,Fireplace Embers
+decoEmberPileFireDesc,blocks,Deco,,,These flaming embers lend some warmth and comfort to a cold concrete base.

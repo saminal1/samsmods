@@ -139,7 +139,7 @@ blocks.xml
 			<property name="FilterTags" value="floot,ffurniture"/>
 		</block>
 
-		<!-- SJ: Not really a deco block, but I wanted to throw it in anyway -->
+		<!-- SJ: Moved to Sam's Storage Stuff -->
 
 		<block name="cntSecureStorageChestHeroDeco">
             <property name="CreativeMode" value="Player"/>
@@ -148,7 +148,7 @@ blocks.xml
             <property name="CustomIcon" value="cntLootChestHero"/>
             <property name="Material" value="Mmetal_weak"/>
             <property name="MaxDamage" value="7000"/>
-            <property name="StabilitySupport" value="false"/> <!-- build restriction -->
+            <property name="StabilitySupport" value="false"/>
             <property name="Shape" value="ModelEntity"/>
             <property name="Model" value="#Entities/LootContainers?loot_cratePrefab.prefab"/>
             <property name="ImposterExchange" value="imposterQuarter" param1="154"/>
@@ -166,6 +166,29 @@ blocks.xml
             <property name="EconomicBundleSize" value="10"/>
             <property name="FilterTags" value="floot,ffurniture"/>
         </block>
+
+		<block name="decoEmberPileFire">
+			<property name="Tags" value="coalBurnedDmg"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="decoEmberPileFireDesc"/>
+			<property name="Class" value="Particle"/>
+			<property name="CustomIcon" value="emberPileDeco1"/>
+			<property name="Material" value="Mwood_weak"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Lighting/ember_pile_1Prefab"/>
+			<property name="Light" value="0.5"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="ParticleName" value="campfire"/>
+			<property name="ParticleOffset" value="0.5,0,0.5"/>
+			<property name="BuffsWhenWalkedOn" value="buffBurningEnvironment"/>
+			<property name="Collide" value="melee,bullet,arrow,rocket"/>
+			<drop event="Harvest" name="resourceCoal" count="3,6" tag="oreWoodHarvest"/>
+			<drop event="Harvest" name="resourceCoal" count="3,6" tag="coalHarvest"/>
+			<drop event="Destroy" name="resourceWood" count="5"/>
+			<property name="FilterTags" value="fdecor,fother,foutdoor"/>
+		</block>
+
 	</append>
 
 	<!-- SJ: Fix some placement weirdness with a handful of the vanilla blocks -->

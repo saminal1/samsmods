@@ -27,50 +27,27 @@ blocks.xml
 		</block>
 	</insertAfter>
 
-	<insertAfter xpath="blocks/block[@name='streetLightClassic']">
-		<block name="streetLight01_Council">
-			<property name="Class" value="PoweredLight"/>
-			<property name="RequiredPower" value="0"/>
-			<property name="Light" value="2"/>
+	<append xpath="/blocks">
+		<block name="emberPileFire">
+			<property name="Tags" value="coalBurnedDmg"/>
 			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIcon" value="streetLight01"/>
-			<property name="DescriptionKey" value="lightPOIGroupDesc"/>
-			<property name="Material" value="Mmetal"/>
+			<property name="Class" value="Particle"/>
+			<property name="CustomIcon" value="emberPileDeco1"/>
+			<property name="Material" value="Mwood_weak"/>
 			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
 			<property name="Shape" value="ModelEntity"/>
-			<property name="ImposterExchange" value="streetLightImposter"/>
-			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-			<property name="Model" value="Entities/Lighting/street_light01Prefab"/> <!-- <property name="HandleFace" value="Bottom"/> -->
-			<property name="OnlySimpleRotations" value="true"/>
-			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
-			<drop event="Harvest" name="resourceElectricParts" count="4,8" tag="salvageHarvest"/>
-			<drop event="Harvest" name="resourceForgedSteel" count="1,2" tag="salvageHarvest"/>
-			<drop event="Destroy" name="resourceScrapIron" count="1,15"/>
-			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
-			<property name="TakeDelay" value="-1"/>
-			<property name="Group" value="Science"/>
-			<property name="FilterTags" value="fdecor,felectrical"/>
-			<property name="SortOrder1" value="70a0"/>
-		</block>
-
-		<block name="streetLightClassic_Council">
-			<property name="Extends" value="porchLight01" param1="HandleFace"/>
-			<property name="Class" value="PoweredLight"/>
-			<property name="RequiredPower" value="0"/>
-			<property name="Light" value="2"/>
-			<property name="CreativeMode" value="Dev"/>
-			<property name="CustomIcon" value="streetLightClassic"/>
-			<property name="Model" value="Entities/Lighting/streetLamp_ClassicPrefab"/>
-			<property name="DisplayType" value="blockMulti"/>
-			<property name="MultiBlockDim" value="1,5,1"/>
-			<property name="Material" value="Mmetal"/>
-			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-			<property name="ImposterExchange" value="imposterDontBlockCTRPole" param1="169"/>
-			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Model" value="Entities/Lighting/ember_pile_1Prefab"/>
+			<property name="Light" value="0.5"/>
 			<property name="IsTerrainDecoration" value="true"/>
-			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
-			<drop event="Harvest" name="resourceElectricParts" count="4,6" tag="salvageHarvest"/>
-			<drop event="Destroy" name="resourceScrapIron" count="1,15"/>
+			<property name="ParticleName" value="torch_wall"/>
+			<property name="ParticleOffset" value="0.5,0,0.5"/>
+			<property name="BuffsWhenWalkedOn" value="buffBurningEnvironment"/>
+			<property name="Collide" value="melee,bullet,arrow,rocket"/>
+			<drop event="Harvest" name="resourceCoal" count="3,6" tag="oreWoodHarvest"/>
+			<drop event="Harvest" name="resourceCoal" count="3,6" tag="coalHarvest"/>
+			<drop event="Destroy" name="resourceWood" count="1"/>
+			<property name="FilterTags" value="fdecor,fother,foutdoor"/>
 		</block>
-	</insertAfter>
+	</append>
+
 </configs>
