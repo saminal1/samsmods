@@ -3,4 +3,3 @@ scrapHatch_v3_Powered,blocks,Door,,,"Iron Hatch (Powered)"
 scrapHatch_v3_PoweredDesc,blocks,Door,,,"This powered hatch can open and close automatically when used with a sensor, switch or trigger plate."
 ironDoor1_v3_Powered,blocks,Door,,,"Iron Door (Powered)"
 ironDoor1_v3_PoweredDesc,blocks,Door,,,"This powered door can open and close automatically when used with a sensor, switch or trigger plate."
-emberPileFire,blocks,Deco,,,Fireplace Embers

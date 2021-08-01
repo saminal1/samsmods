@@ -1,0 +1,11 @@
+<!--
+Sam's Test Stuff
+v19.5.1
+by saminal
+
+items.xml
+-->
+
+<configs>
+    <!-- <set xpath="items/item[@name='vehicle4x4TruckPlaceable']/effect_group/passive_effect[@name='DegradationMax']/@value">15000</set> -->
+</configs>

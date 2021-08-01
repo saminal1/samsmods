@@ -1,0 +1,3 @@
+Key,File,Type,english
+workstationBadPlayerDesk,blocks,Furniture,"BadPlayer's Desk"
+workstationBadPlayerDeskPC,blocks,Furniture,"BadPlayer's Fancy Synthesis Station"
