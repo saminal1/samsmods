@@ -9,26 +9,29 @@ blocks.xml
 <configs>
     <append xpath="/blocks">
 		<block name="workstationBadPlayerDesk">
-				<property name="Extends" value="cntMetalDesk02RandomLootHelper" param1="CustomIconTint,DisplayInfo"/>
-				<property name="CreativeMode" value="Player"/>
-				<property name="Class" value="PlantGrowing"/>
-				<property name="PlantGrowing.FertileLevel" value="0"/>
-				<property name="PlantGrowing.Next" value="workstationBadPlayerDesk"/>
-				<property name="PlantGrowing.GrowthRate" value="0"/>
-				<property name="PlantGrowing.IsRandom" value="false"/>
-				<property name="PlantGrowing.LightLevelStay" value="0"/>
-				<property name="PlantGrowing.GrowOnTop" value="workstationBadPlayerDeskPC"/>
-				<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
-				<property name="CustomIcon" value="cntMetalDesk02RandomLootHelper"/>
-				<property name="DisplayType" value="blockMulti"/>
-				<property name="IsTerrainDecoration" value="false"/>
-				<property name="MultiBlockDim" value="2,1,1"/>
-				<property name="DescriptionKey" value="furnitureGroupDesc"/>
-				<property name="FilterTags" value="floot,ffurniture"/>
+            <property name="Extends" value="cntMetalDesk02RandomLootHelper" param1="CustomIconTint,DisplayInfo"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="cntMetalDesk02RandomLootHelper"/>
+            <property name="CustomIconTint" value="FF99CC"/>
+            <property name="DescriptionKey" value="workstationBadPlayerDeskDesc"/>
+            <property name="Class" value="PlantGrowing"/>
+            <property name="PlantGrowing.FertileLevel" value="0"/>
+            <property name="PlantGrowing.Next" value="workstationBadPlayerDesk"/>
+            <property name="PlantGrowing.GrowthRate" value="0"/>
+            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="PlantGrowing.LightLevelStay" value="0"/>
+            <property name="PlantGrowing.GrowOnTop" value="workstationBadPlayerDeskPC"/>
+            <property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+            <property name="DisplayType" value="blockMulti"/>
+            <property name="IsTerrainDecoration" value="false"/>
+            <property name="MultiBlockDim" value="2,1,1"/>
+            <property name="FilterTags" value="floot,ffurniture"/>
 		</block>
 
 		<block name="workstationBadPlayerDeskPC">
 			<property name="Extends" value="decoComputerDeskTopPC"/>
+            <property name="CreativeMode" value="Dev"/>
+            <property name="CustomIcon" value="decoComputerMonitorKeyboardMousePC"/>
 			<property name="Model" value="Entities/Electrical/monitorKeyboardMousePCPrefab"/>
 			<property name="DisplayType" value="blockMulti"/>
 			<property name="MultiBlockDim" value="2,1,1"/>

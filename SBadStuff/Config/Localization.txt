@@ -1,3 +1,4 @@
 Key,File,Type,english
 workstationBadPlayerDesk,blocks,Furniture,"BadPlayer's Desk"
+workstationBadPlayerDeskDesc,block,Furniture,"Put on your nerdy glasses, sit down, and synthesize some shit."
 workstationBadPlayerDeskPC,blocks,Furniture,"BadPlayer's Fancy Synthesis Station"
