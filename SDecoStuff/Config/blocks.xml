@@ -1,6 +1,6 @@
 <!--
 Sam's Deco Stuff
-v19.3.1
+v19.6.1
 by saminal
 lightly tested, good luck
 
@@ -17,7 +17,7 @@ blocks.xml
 			<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
 			<property name="ItemTypeIcon" value="all_blocks"/>
 			<property name="SelectAlternates" value="true"/>
-			<property name="PlaceAltBlockValue" value="wineBarrel,wineBarrelSet,wineBarrelPlain,paintingBen,paintingLorien,paintingDerek,paintingNoah,paintingDuke,paintingKen,decoClassicDogHouse,cntBookcaseEmpty,cntBookcaseFull,emberPileDeco1,emberPileDeco2,driftwood,driftwood2,signShopColdBeer,modularFireWoodStackA,modularFireWoodStackB,modularFireWoodStackC,woodDestroyed05,woodDestroyed06,woodDestroyed07,palletEmpty,palletEmptyStack"/>
+			<property name="PlaceAltBlockValue" value="wineBarrel,wineBarrelSet,wineBarrelPlain,paintingBen,paintingLorien,paintingDerek,paintingNoah,paintingDuke,paintingKen,decoClassicDogHouse,cntBookcaseEmpty,cntBookcaseFull,emberPileDeco1,emberPileDeco2,driftwood,driftwood2,signShopColdBeer,modularFireWoodStackA,modularFireWoodStackB,modularFireWoodStackC,woodDestroyed05,woodDestroyed06,woodDestroyed07,palletEmpty,palletEmptyStack,cntCoffin,cntCoffinWildWestClosed,cntCoffinWildWestCracked,cntCoffinWildWestStack,cntCoffinWildWestLeaning,cntCoffinWildWestLidLeaning,shootingRangeTarget,"/>
 			<property name="EconomicValue" value="60"/> <!-- disassemble value -->
 		</block>
 
@@ -28,7 +28,7 @@ blocks.xml
 			<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
 			<property name="ItemTypeIcon" value="all_blocks"/>
 			<property name="SelectAlternates" value="true"/>
-			<property name="PlaceAltBlockValue" value="cntIceMachine,decoMetalBollard,decoCookingPot,cntTrash_can01,cntBin,cntDomedTrashCanEmpty,cntFancyGarbageCan,decoWeightBar,decoBenchPress,cntFileCabinetTallClosed,cntFileCabinetShortClosed,cntBathTubEmpty,decoClawFootBathTub,cntCashRegister,cntToolBoxClosed,cntRollingToolBoxClosed,cntUtilityCartFull,decoTableRound,signRoadPrivate,signYardSign01,cntGunRackSmallEmpty01,cntGunRackSmallEmpty03,cntGunRackSmallMagazines,cntGunRackSmallArmor,cntGunRackLargeGuns01,cntGunRackLargeGuns02,signRoadStop,signRoadWork,cntCharcoalGrillOpen,cntGasGrillOpen,rebarDestroyed,decoSwingSet,decoMetalSlide,cntShoppingCartEmpty,decoHandTruck,decoHoistChain,decoHoistHook,jailBars,jailDoorStatic,jailDoorStaticCentered"/>
+			<property name="PlaceAltBlockValue" value="cntIceMachine,decoMetalBollard,decoCookingPot,cntTrash_can01,cntBin,cntDomedTrashCanEmpty,cntFancyGarbageCan,decoWeightBar,decoBenchPress,decoStationaryBike,cntFileCabinetTallClosed,cntFileCabinetShortClosed,cntBathTubEmpty,decoClawFootBathTub,cntCashRegister,cntToolBoxClosed,cntRollingToolBoxClosed,cntUtilityCartFull,decoTableRound,signRoadPrivate,signYardSign01,cntGunRackSmallEmpty01,cntGunRackSmallEmpty03,cntGunRackSmallMagazines,cntGunRackSmallArmor,cntGunRackLargeGuns01,cntGunRackLargeGuns02,signRoadStop,signRoadWork,cntCharcoalGrillOpen,cntGasGrillOpen,rebarDestroyed,decoSwingSet,decoMetalSlide,cntShoppingCartEmpty,decoHandTruck,decoHoistChain,decoHoistHook,jailBars,jailDoorStatic,jailDoorStaticCentered,cntClothesRackRoundEmpty,cntClothesRackRoundEmpty2,cntClothesRackRectangleEmpty,cntClothesRackRectangleEmpty2,cntClothesRackWallFlat,cntClothesRackWallEmptyHanger,cntStoreShelfDoubleBottomShoesEmpty,cntStoreShelfDoubleTopShoesEmpty,cntStoreShelfSingleBottomShoesEmpty,cntStoreShelfSingleTopShoesEmpty"/>
 			<property name="EconomicValue" value="60"/> <!-- disassemble value -->
 		</block>
 
@@ -72,7 +72,7 @@ blocks.xml
 			<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
 			<property name="ItemTypeIcon" value="all_blocks"/>
 			<property name="SelectAlternates" value="true"/>
-			<property name="PlaceAltBlockValue" value="cntMicrowaveOvenVer1Closed,cntRetroFridgeVer1Closed,cntFridgeStainlessSteel,cntWashingMachine,cntWasherClosed,cntDryerClosed,cntTrashCompactor,decoComputerDeskTopPC,decoComputerMonitorKeyboardMousePC,decoComputerMonitorKeyboardMouse,decoComputerMonitor,wallClock,cntToaster,cntCoffeeMaker,cntCoffeeMakerCommercial,satelliteDishSmall,"/>
+			<property name="PlaceAltBlockValue" value="cntMicrowaveOvenVer1Closed,cntRetroFridgeVer1Closed,cntFridgeStainlessSteel,cntWashingMachine,cntWasherClosed,cntDryerClosed,cntTrashCompactor,decoComputerDeskTopPC,decoComputerMonitorKeyboardMousePC,decoComputerMonitorKeyboardMouse,decoComputerMonitor,wallClock,cntToaster,cntCoffeeMaker,cntCoffeeMakerCommercial,satelliteDishSmall,decoTreadmill"/>
 			<property name="EconomicValue" value="60"/> <!-- disassemble value -->
 		</block>
 
@@ -83,7 +83,7 @@ blocks.xml
 			<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
 			<property name="ItemTypeIcon" value="all_blocks"/>
 			<property name="SelectAlternates" value="true"/>
-			<property name="PlaceAltBlockValue" value="decoReptileTerrarium,cntMedicineCabinetFaucetClosed,cntMedicineCabinetClosed,mirror,signBathroomSignUnisexWallMount,signBathroomSignUnisexCeilingMount,signBathroomSignWomenWallMount,signBathroomSignWomenCeilingMount,signBathroomSignMenWallMount,signBathroomSignMenCeilingMount"/>
+			<property name="PlaceAltBlockValue" value="decoReptileTerrarium,cntMedicineCabinetFaucetClosed,cntMedicineCabinetClosed,mirror,signBathroomSignUnisexWallMount,signBathroomSignUnisexCeilingMount,signBathroomSignWomenWallMount,signBathroomSignWomenCeilingMount,signBathroomSignMenWallMount,signBathroomSignMenCeilingMount,signPosterMovieTheater2159,signPosterMovieTheaterLoneWolf,signPosterMovieTheaterMammasJustice,signPosterMovieTheaterSexualTension"/>
 			<property name="EconomicValue" value="60"/> <!-- disassemble value -->
 		</block>
 		
@@ -187,6 +187,43 @@ blocks.xml
 			<drop event="Harvest" name="resourceCoal" count="3,6" tag="coalHarvest"/>
 			<drop event="Destroy" name="resourceWood" count="5"/>
 			<property name="FilterTags" value="fdecor,fother,foutdoor"/>
+		</block>
+		
+		<block name="modularFireWoodStackCFire">
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="decoEmberPileFireDesc"/>
+			<property name="Class" value="Particle"/>
+			<property name="CustomIcon" value="modularFireWoodStackC"/>
+			<property name="Material" value="Mwood_weak"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/OutdoorDecor/modularFireWoodStackCPrefab"/>
+			<property name="Light" value="0.5"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="ParticleName" value="campfire"/>
+			<property name="ParticleOffset" value="0.5,0,0.5"/>
+			<property name="BuffsWhenWalkedOn" value="buffBurningEnvironment"/>
+			<property name="Collide" value="melee,bullet,arrow,rocket"/>
+			<drop event="Destroy" name="resourceWood" count="5"/>
+			<property name="FilterTags" value="fdecor,fother,foutdoor"/>
+		</block>
+		
+		<block name="cntWoodBurningStoveFire">
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="decoEmberPileFireDesc"/>
+			<property name="Class" value="Particle"/>
+			<property name="CustomIcon" value="cntWoodBurningStove"/>
+			<property name="Material" value="Mmetal_weak"/>
+			<property name="StabilitySupport" value="true"/> <!-- build restriction -->
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Furniture/woodBurningStovePrefab"/>
+			<property name="Light" value="0.5"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="ParticleName" value="campfire"/>
+			<property name="ParticleOffset" value="0.5,0.3,0.5"/>
+			<property name="FilterTags" value="fdecor,fother"/>
+			<drop event="Destroy" name="resourceScrapIron" count="5"/>
+			<property name="ActiveRadiusEffects" value="buffCampfireAOE(5)"/>
 		</block>
 
 	</append>

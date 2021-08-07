@@ -14,3 +14,6 @@ cntHardenedChestSecureDeco,blocks,Container,,,Deco Hardened Chest
 cntSecureStorageChestHeroDeco,blocks,block,,,Reinforced Storage Chest
 decoEmberPileFire,blocks,Deco,,,Fireplace Embers
 decoEmberPileFireDesc,blocks,Deco,,,These flaming embers lend some warmth and comfort to a cold concrete base.
+cntWoodBurningStoveFire,blocks,Deco,,,Wood Burning Stove
+cntWoodBurningStoveFireDesc,blocks,Deco,,,Bring the heat to your hearth with an old-fashioned wood burning stove.
+modularFireWoodStackCFire,blocks,Deco,,,Fireplace Wood

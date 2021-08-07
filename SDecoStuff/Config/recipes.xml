@@ -1,6 +1,6 @@
 <!--
 Sam's Deco Stuff
-v19.3.1
+v19.6.1
 by saminal
 lightly tested, good luck
 
@@ -104,5 +104,15 @@ recipes.xml
             <ingredient name="resourceCoal" count="15"/>
         </recipe>
 
+		<recipe name="modularFireWoodStackCFire" count="1">
+            <ingredient name="resourceWood" count="10"/>
+            <ingredient name="resourceCoal" count="5"/>
+        </recipe>
+
+		<recipe name="cntWoodBurningStoveFire" count="1">
+			<ingredient name="resourceForgedIron" count="15"/>
+            <ingredient name="resourceWood" count="10"/>
+            <ingredient name="resourceCoal" count="15"/>
+		</recipe>
 	</append>
 </configs>
